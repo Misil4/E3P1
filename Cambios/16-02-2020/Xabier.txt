@@ -1,0 +1,6 @@
+Xabier
+
+Dia 16/2/2021
+
+Correción de la selecion de los idiomas
+Se ha removido de la pagina la seccion del blog
