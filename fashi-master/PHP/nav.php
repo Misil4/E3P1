@@ -18,12 +18,28 @@ include "configuracion.php"
                         +34 688456729
                     </div>
                 </div>
+<<<<<<< HEAD
                 <div class="footer text-right">
      <a href="index.php?lang=es"> <?php echo $lang['es'] ?> </a> | <a href="index.php?lang=en"> <?php echo $lang['en'] ?></a> | <a href="index.php?lang=it"> <?php echo $lang['it'] ?> </a>
      </div>
     </div>
     </div>
+=======
+                <div class="ht-right">
+                    <a href="./login.php" class="login-panel"><i class="fa fa-user"></i>Login</a>
+                    <div class="lan-selector">
+                        <select class="language_drop" name="countries" id="countries" style="width:300px;">
+                            <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt"
+                                data-title="English">Ingles</option>
+                            <option value='yu' data-image="img/flag-3.png" data-imagecss="flag yu"
+                                data-title="Bangladesh">Euskera </option>
+                            <option value='yu' data-image="img/flag-4.png" data-imagecss="flag yu"
+                                data-title="Bangladesh">Español </option>
+                        </select>
+                    </div>
+>>>>>>> fa9f13041de80bffc24ff9315691f034ce6bf688
                     <div class="top-social">
+                        <a href="#"><i><img src="./img/whatsapp.svg" width="16px" height="16px"></i></a>
                         <a href="#"><i class="ti-facebook"></i></a>
                         <a href="#"><i class="ti-twitter-alt"></i></a>
                         <a href="#"><i class="ti-linkedin"></i></a>
@@ -53,12 +69,6 @@ include "configuracion.php"
                     </div>
                     <div class="col-lg-3 text-right col-md-3">
                         <ul class="nav-right">
-                            <li class="heart-icon">
-                                <a href="#">
-                                    <i class="icon_heart_alt"></i>
-                                    <span>1</span>
-                                </a>
-                            </li>
                             <li class="cart-icon">
                                 <a href="#">
                                     <i class="icon_bag_alt"></i>
@@ -105,7 +115,6 @@ include "configuracion.php"
                                     </div>
                                 </div>
                             </li>
-                            <li class="cart-price">$150.00</li>
                         </ul>
                     </div>
                 </div>
@@ -113,26 +122,10 @@ include "configuracion.php"
         </div>
         <div class="nav-item">
             <div class="container">
-                <div class="nav-depart">
-                    <div class="depart-btn">
-                        <i class="ti-menu"></i>
-                        <span>All departments</span>
-                        <ul class="depart-hover">
-                            <li class="active"><a href="#">Women’s Clothing</a></li>
-                            <li><a href="#">Men’s Clothing</a></li>
-                            <li><a href="#">Underwear</a></li>
-                            <li><a href="#">Kid's Clothing</a></li>
-                            <li><a href="#">Brand Fashion</a></li>
-                            <li><a href="#">Accessories/Shoes</a></li>
-                            <li><a href="#">Luxury Brands</a></li>
-                            <li><a href="#">Brand Outdoor Apparel</a></li>
-                        </ul>
-                    </div>
-                </div>
                 <nav class="nav-menu mobile-menu">
                     <ul>
-                        <li class="active"><a href="./index.html">Home</a></li>
-                        <li><a href="./shop.html">Shop</a></li>
+                        <li class="active"><a href="./index.php">Home</a></li>
+                        <li><a href="./shop.php">Shop</a></li>
                         <li><a href="#">Collection</a>
                             <ul class="dropdown">
                                 <li><a href="#">Men's</a></li>
@@ -140,16 +133,16 @@ include "configuracion.php"
                                 <li><a href="#">Kid's</a></li>
                             </ul>
                         </li>
-                        <li><a href="./blog.html">Blog</a></li>
-                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./blog.php">Blog</a></li>
+                        <li><a href="./contact-php">Contact</a></li>
                         <li><a href="#">Pages</a>
                             <ul class="dropdown">
-                                <li><a href="./blog-details.html">Blog Details</a></li>
-                                <li><a href="./shopping-cart.html">Shopping Cart</a></li>
-                                <li><a href="./check-out.html">Checkout</a></li>
-                                <li><a href="./faq.html">Faq</a></li>
-                                <li><a href="./register.html">Register</a></li>
-                                <li><a href="./login.html">Login</a></li>
+                                <li><a href="./blog-details.php">Blog Details</a></li>
+                                <li><a href="./shopping-cart.php">Shopping Cart</a></li>
+                                <li><a href="./check-out-php">Checkout</a></li>
+                                <li><a href="./faq.php">Faq</a></li>
+                                <li><a href="./register.php">Register</a></li>
+                                <li><a href="./login.php">Login</a></li>
                             </ul>
                         </li>
                     </ul>
