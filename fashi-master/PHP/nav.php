@@ -1,4 +1,8 @@
-<html lang="zxx">
+<?php
+include "configuracion.php"
+
+?>
+<html lang="es">
 
 
 <header class="header-section">
@@ -14,18 +18,11 @@
                         +34 688456729
                     </div>
                 </div>
-                <div class="ht-right">
-                    <a href="./login.html" class="login-panel"><i class="fa fa-user"></i>Login</a>
-                    <div class="lan-selector">
-                        <select class="language_drop" name="countries" id="countries" style="width:300px;">
-                            <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt"
-                                data-title="English">Ingles</option>
-                            <option value='yu' data-image="img/flag-3.png" data-imagecss="flag yu"
-                                data-title="Bangladesh">Euskera </option>
-                            <option value='yu' data-image="img/flag-4.png" data-imagecss="flag yu"
-                                data-title="Bangladesh">Español </option>
-                        </select>
-                    </div>
+                <div class="footer text-right">
+     <a href="index.php?lang=es"> <?php echo $lang['es'] ?> </a> | <a href="index.php?lang=en"> <?php echo $lang['en'] ?></a> | <a href="index.php?lang=it"> <?php echo $lang['it'] ?> </a>
+     </div>
+    </div>
+    </div>
                     <div class="top-social">
                         <a href="#"><i class="ti-facebook"></i></a>
                         <a href="#"><i class="ti-twitter-alt"></i></a>
