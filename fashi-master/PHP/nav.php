@@ -7,11 +7,11 @@
                 <div class="ht-left">
                     <div class="mail-service">
                         <i class=" fa fa-envelope"></i>
-                        hello.colorlib@gmail.com
+                        Xabiergoenaga@ikasle.aeg.eus
                     </div>
                     <div class="phone-service">
                         <i class=" fa fa-phone"></i>
-                        +65 11.188.888
+                        +34 688456729
                     </div>
                 </div>
                 <div class="ht-right">
@@ -19,7 +19,7 @@
                     <div class="lan-selector">
                         <select class="language_drop" name="countries" id="countries" style="width:300px;">
                             <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt"
-                                data-title="English">English</option>
+                                data-title="English">Ingles</option>
                             <option value='yu' data-image="img/flag-3.png" data-imagecss="flag yu"
                                 data-title="Bangladesh">Euskera </option>
                             <option value='yu' data-image="img/flag-4.png" data-imagecss="flag yu"
