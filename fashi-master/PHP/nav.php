@@ -1,7 +1,4 @@
-<?php
-include "configuracion.php"
 
-?>
 <html lang="es">
 
 

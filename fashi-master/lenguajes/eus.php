@@ -2,7 +2,7 @@
 
 $lang = array(
 
-    "title" => "Il mio sito Web in italiano",
+    "titulo" => "K-Beauty Zure kosmetika koreak denda",
     "Inicio" => "iniziazione",
     "Precios" => "Prezzi",
     "Contacto" => "Contatto",

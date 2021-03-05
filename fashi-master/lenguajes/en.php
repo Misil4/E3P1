@@ -2,7 +2,7 @@
 
 $lang = array(
 
-    "title" => "My Web Site in English",
+    "titulo" => "K-Beauty Your korean cosmetics shop",
     "Inicio" => "Home",
     "Precios" => "Pricing",
     "Contacto" => "Contact",
