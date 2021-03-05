@@ -156,7 +156,7 @@
     $(document).ready(function(e) {
     //no use
     try {
-        var pages = $("#pages").msDropdown({on:{change:function(data, ui) {
+        var pages = $("").msDropdown({on:{change:function(data, ui) {
             var val = data.value;
             if(val!="")
                 window.location = val;

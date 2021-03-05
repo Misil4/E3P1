@@ -18,32 +18,21 @@ include "configuracion.php"
                         +34 688456729
                     </div>
                 </div>
-<<<<<<< HEAD
-                <div class="footer text-right">
-     <a href="index.php?lang=es"> <?php echo $lang['es'] ?> </a> | <a href="index.php?lang=en"> <?php echo $lang['en'] ?></a> | <a href="index.php?lang=it"> <?php echo $lang['it'] ?> </a>
-     </div>
-    </div>
-    </div>
-=======
                 <div class="ht-right">
-                    <a href="./login.php" class="login-panel"><i class="fa fa-user"></i>Login</a>
+                    <a href="#" class="login-panel"><i class="fa fa-user"></i>Login</a>
                     <div class="lan-selector">
-                        <select class="language_drop" name="countries" id="countries" style="width:300px;">
-                            <option value='yt' data-image="img/flag-1.jpg" data-imagecss="flag yt"
-                                data-title="English">Ingles</option>
-                            <option value='yu' data-image="img/flag-3.png" data-imagecss="flag yu"
-                                data-title="Bangladesh">Euskera </option>
-                            <option value='yu' data-image="img/flag-4.png" data-imagecss="flag yu"
-                                data-title="Bangladesh">Español </option>
-                        </select>
-                    </div>
->>>>>>> fa9f13041de80bffc24ff9315691f034ce6bf688
+     <a href="index.php?lang=es"> <?php echo $lang['es'] ?> </a> | <a href="index.php?lang=en"> <?php echo $lang['en'] ?></a> | <a href="index.php?lang=eus"> <?php echo $lang['eus'] ?> </a>
+     </div>
                     <div class="top-social">
                         <a href="#"><i><img src="./img/whatsapp.svg" width="16px" height="16px"></i></a>
                         <a href="#"><i class="ti-facebook"></i></a>
                         <a href="#"><i class="ti-twitter-alt"></i></a>
                         <a href="#"><i class="ti-linkedin"></i></a>
                         <a href="#"><i class="ti-pinterest"></i></a>
+                        </div>
+</div>
+    </div>
+    </div>
                     </div>
                 </div>
             </div>
