@@ -3,6 +3,12 @@
 $lang = array(
 
     "titulo" => "K-Beauty Zure kosmetika koreak denda",
+    "login" => "Saioa hasi",
+    "categories" => "Kategoriak",
+    "categories_description" => "Bilatu",
+    "total" => "Totala:",
+    "cart_view" => "SASKIA IKUSI",
+    "check_out" => "EROSKETA AMAITU",
     "Inicio" => "iniziazione",
     "Precios" => "Prezzi",
     "Contacto" => "Contatto",

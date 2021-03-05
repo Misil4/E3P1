@@ -3,6 +3,13 @@
 $lang = array(
 
     "titulo" => "K-Beauty Your korean cosmetics shop",
+    "login" => "Login",
+    "categories" => "Categories",
+    "categories_description" => "Search",
+    "total" => "Total:",
+    "cart_view" => "VIEW CART",
+    "check_out" => "CHECK OUT",
+    "eslogan" => "SHOP NOW",
     "Inicio" => "Home",
     "Precios" => "Pricing",
     "Contacto" => "Contact",
