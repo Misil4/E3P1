@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-
-
+<?php include "./PHP/Idioma.php"?>
 <header class="header-section">
     <div class="header-top">
         <div class="container">
@@ -18,11 +17,11 @@
             <div class="ht-right">
                 <a href="#" class="login-panel"><i class="fa fa-user"></i><?php echo $lang['login'] ?></a>
                 <div class="lan-selector">
-                    <a href="index.php?lang=es"> <?php echo $lang['es'] ?> </a> | <a href="index.php?lang=en">
-                        <?php echo $lang['en'] ?></a> | <a href="index.php?lang=eus"> <?php echo $lang['eus'] ?> </a>
+                    <a href="index.php?lang=es" style="margin-left: 10px;"> <?php echo $lang['es'] ?> </a> | <a href="index.php?lang=en">
+                        <?php echo $lang['en'] ?></a> | <a href="index.php?lang=eus" style="margin-right: 10px;"> <?php echo $lang['eus'] ?> </a>
                 </div>
                 <div class="top-social">
-                    <a href="#"><i><img src="./img/whatsapp.svg" width="16px" height="16px"></i></a>
+                    <a href="#"><i><img src="./img/whatsapp.svg" width="16px" height="16px" style="margin-bottom: 3px;"></i></a>
                     <a href="#"><i class="ti-facebook"></i></a>
                     <a href="#"><i class="ti-twitter-alt"></i></a>
                     <a href="#"><i class="ti-linkedin"></i></a>

@@ -15,4 +15,4 @@ if (!isset($_SESSION['lang'])) {
 
 }
 
-require_once "./lenguajes/" . $_SESSION['lang'] . ".php";
+require_once "lenguajes/" . $_SESSION['lang'] . ".php";

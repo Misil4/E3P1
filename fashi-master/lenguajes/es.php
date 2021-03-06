@@ -18,4 +18,16 @@ $lang = array(
     "en" => '<img src="img/flag-1.jpg"></img>',
     "es" => '<img src="img/flag-4.png" width="25px"></img>',
     "eus" => '<img src="img/flag-3.png"></img>',
+
+    //  Area de Contacto
+
+    "Contacta con nosotros" => "Contacta con nosotros",
+    "Contacto" => "Contacto",
+    "Telefono" => "Telefono",
+    'Deja tu comentario' => 'Deja tu comentario',
+    'Comentario explicación' => 'En este apartado puedes enviar tus dudas o sugerencias.',
+    'Comentario explicación nombre' => 'Introducce tu nombre',
+    'Comentario explicación email' => 'Introducce tu apellido',
+    'Comentario explicación mensaje' => 'Introducce tu mensaje',
+    'Enviar Mensaje' => 'Enviar Mensaje'
 );

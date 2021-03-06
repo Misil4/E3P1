@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<?php
-include "configuracion.php"
-
-?>
 <html lang="eus">
 
 <head>

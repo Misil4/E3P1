@@ -55,9 +55,7 @@
             <div class="row">
                 <div class="col-lg-5">
                     <div class="contact-title">
-                        <h4>Contacts Us</h4>
-                        <p>Contrary to popular belief, Lorem Ipsum is simply random text. It has roots in a piece of
-                            classical Latin literature from 45 BC, maki years old.</p>
+                        <h4><?php echo $lang['Contacto'] ?></h4>
                     </div>
                     <div class="contact-widget">
                         <div class="cw-item">
@@ -65,7 +63,7 @@
                                 <i class="ti-mobile"></i>
                             </div>
                             <div class="ci-text">
-                                <span>Phone:</span>
+                                <span><?php echo $lang['Telefono'] ?></span>
                                 <p>+65 11.188.888</p>
                             </div>
                         </div>
@@ -83,19 +81,19 @@
                 <div class="col-lg-6 offset-lg-1">
                     <div class="contact-form">
                         <div class="leave-comment">
-                            <h4>Leave A Comment</h4>
-                            <p>Our staff will call back later and answer your questions.</p>
+                            <h4><?php echo $lang['Deja tu comentario'] ?></h4>
+                            <p><?php echo $lang['Comentario explicación'] ?></p>
                             <form action="#" class="comment-form">
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <input type="text" placeholder="Your name">
+                                        <input type="text" placeholder="<?php echo $lang['Comentario explicación nombre'] ?>">
                                     </div>
                                     <div class="col-lg-6">
-                                        <input type="text" placeholder="Your email">
+                                        <input type="text" placeholder="<?php echo $lang['Comentario explicación email'] ?>">
                                     </div>
                                     <div class="col-lg-12">
-                                        <textarea placeholder="Your message"></textarea>
-                                        <button type="submit" class="site-btn">Send message</button>
+                                        <textarea placeholder="<?php echo $lang['Comentario explicación mensaje'] ?>"></textarea>
+                                        <button type="submit" class="site-btn"><?php echo $lang['Enviar Mensaje'] ?></button>
                                     </div>
                                 </div>
                             </form>

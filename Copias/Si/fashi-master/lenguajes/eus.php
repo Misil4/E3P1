@@ -10,7 +10,7 @@ $lang = array(
     "cart_view" => "SASKIA IKUSI",
     "check_out" => "EROSKETA AMAITU",
     "Inicio" => "iniziazione",
-    "Precios" => "Prezzi",
+    "Precios" => "Prezio",
     "Contacto" => "Contatto",
     "Descripcion" => "Questa è la descrizione del mio sito Web Italiano",
     "Titular" => "Il mio sito Web in Italiano",
@@ -20,13 +20,13 @@ $lang = array(
 
     //  Area de Contacto
 
-    "Contacta con nosotros" => "Contacta con nosotros",
-    "Contacto" => "Contacto",
+    "Contacta con nosotros" => "Gurekin harremanetan jarri",
+    "Contacto" => "Kontaktu",
     "Telefono" => "Telefono-zenbakia",
-    'Deja tu comentario' => 'Deja tu comentario',
-    'Comentario explicación' => 'En este apartado puedes enviar tus dudas o sugerencias.',
-    'Comentario explicación nombre' => 'Introducce tu nombre',
-    'Comentario explicación email' => 'Introducce tu apellido',
-    'Comentario explicación mensaje' => 'Introducce tu mensaje',
-    'Enviar Mensaje' => 'Enviar Mensaje'
+    'Deja tu comentario' => 'Uzi zure iritzia',
+    'Comentario explicación' => 'Atal honetan zure zalantzak edo iradokizuak utz ditzakezu',
+    'Comentario explicación nombre' => 'Sartu zure izena',
+    'Comentario explicación email' => 'Sartu zure abizena',
+    'Comentario explicación mensaje' => 'Sartu zure mezua',
+    'Enviar Mensaje' => 'Mezua bidali'
 );
