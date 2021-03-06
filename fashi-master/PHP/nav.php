@@ -8,7 +8,7 @@
             <div class="ht-left">
                 <div class="mail-service">
                     <i class=" fa fa-envelope"></i>
-                    Xabiergoenaga@ikasle.aeg.eus
+                    xabiergoenaga@ikasle.aeg.eus
                 </div>
                 <div class="phone-service">
                     <i class=" fa fa-phone"></i>
@@ -50,16 +50,13 @@
                         <button type="button" class="category-btn"><?php echo $lang['categories'] ?></button>
                         <div class="input-group">
                             <input type="text" placeholder=<?php echo $lang['categories_description'] ?>>
-                            <div class="col-lg-14 col-md-14">
-                                <button type="button"><i class="ti-search"></i></button>
-                            </div>
+                                <button type="button" style="width:70px;height:49px;margin-top: -1px;margin-right: -20px;"><i class="ti-search"></i></button>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-14 text-right col-md-14">
-                </div>
+                <div class="float-left">  
                 <ul class="nav-right">
-                    <li class="cart-icon">
+                    <li class="cart-icon" style="float:right;">
                         <a href="#">
                             <i class="icon_bag_alt"></i>
                             <span>3</span>
@@ -105,8 +102,9 @@
                                     class="primary-btn checkout-btn"><?php echo $lang['check_out'] ?></a>
                             </div>
                         </div>
+                        </div>
                     </li>
-                </ul>
+                </ul>  
             </div>
         </div>
     </div>
@@ -125,7 +123,7 @@
                         </ul>
                     </li>
                     <li><a href="./blog.php">Blog</a></li>
-                    <li><a href="./contact-php">Contact</a></li>
+                    <li><a href="./contact.php">Contact</a></li>
                     <li><a href="#">Pages</a>
                         <ul class="dropdown">
                             <li><a href="./blog-details.php">Blog Details</a></li>
@@ -142,5 +140,3 @@
         </div>
     </div>
 </header>
-
-</html>
