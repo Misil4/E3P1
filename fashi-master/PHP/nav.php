@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-<?php include "./PHP/Idioma.php"?>
 <header class="header-section">
     <div class="header-top">
         <div class="container">
@@ -17,11 +16,14 @@
             <div class="ht-right">
                 <a href="#" class="login-panel"><i class="fa fa-user"></i><?php echo $lang['login'] ?></a>
                 <div class="lan-selector">
-                    <a href="index.php?lang=es" style="margin-left: 10px;"> <?php echo $lang['es'] ?> </a> | <a href="index.php?lang=en">
-                        <?php echo $lang['en'] ?></a> | <a href="index.php?lang=eus" style="margin-right: 10px;"> <?php echo $lang['eus'] ?> </a>
+                    <a href="index.php?lang=es" style="margin-left: 10px;"> <?php echo $lang['es'] ?> </a> | <a
+                        href="index.php?lang=en">
+                        <?php echo $lang['en'] ?></a> | <a href="index.php?lang=eus" style="margin-right: 10px;">
+                        <?php echo $lang['eus'] ?> </a>
                 </div>
                 <div class="top-social">
-                    <a href="#"><i><img src="./img/whatsapp.svg" width="16px" height="16px" style="margin-bottom: 3px;"></i></a>
+                    <a href="#"><i><img src="./img/whatsapp.svg" width="16px" height="16px"
+                                style="margin-bottom: 3px;"></i></a>
                     <a href="#"><i class="ti-facebook"></i></a>
                     <a href="#"><i class="ti-twitter-alt"></i></a>
                     <a href="#"><i class="ti-linkedin"></i></a>
@@ -49,61 +51,63 @@
                         <button type="button" class="category-btn"><?php echo $lang['categories'] ?></button>
                         <div class="input-group">
                             <input type="text" placeholder=<?php echo $lang['categories_description'] ?>>
-                                <button type="button" style="width:70px;height:49px;margin-top: -1px;margin-right: -20px;"><i class="ti-search"></i></button>
+                            <button type="button"
+                                style="width:70px;height:49px;margin-top: -1px;margin-right: -20px;"><i
+                                    class="ti-search"></i></button>
                         </div>
                     </div>
                 </div>
-                <div class="float-left">  
-                <ul class="nav-right">
-                    <li class="cart-icon" style="float:right;">
-                        <a href="#">
-                            <i class="icon_bag_alt"></i>
-                            <span>3</span>
-                        </a>
-                        <div class="cart-hover">
-                            <div class="select-items">
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <td class="si-pic"><img src="img/select-product-1.jpg" alt=""></td>
-                                            <td class="si-text">
-                                                <div class="product-selected">
-                                                    <p>$60.00 x 1</p>
-                                                    <h6>Kabino Bedside Table</h6>
-                                                </div>
-                                            </td>
-                                            <td class="si-close">
-                                                <i class="ti-close"></i>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td class="si-pic"><img src="img/select-product-2.jpg" alt=""></td>
-                                            <td class="si-text">
-                                                <div class="product-selected">
-                                                    <p>$60.00 x 1</p>
-                                                    <h6>Kabino Bedside Table</h6>
-                                                </div>
-                                            </td>
-                                            <td class="si-close">
-                                                <i class="ti-close"></i>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                <div class="float-left">
+                    <ul class="nav-right">
+                        <li class="cart-icon" style="float:right;">
+                            <a href="#">
+                                <i class="icon_bag_alt"></i>
+                                <span>3</span>
+                            </a>
+                            <div class="cart-hover">
+                                <div class="select-items">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td class="si-pic"><img src="img/select-product-1.jpg" alt=""></td>
+                                                <td class="si-text">
+                                                    <div class="product-selected">
+                                                        <p>$60.00 x 1</p>
+                                                        <h6>Kabino Bedside Table</h6>
+                                                    </div>
+                                                </td>
+                                                <td class="si-close">
+                                                    <i class="ti-close"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="si-pic"><img src="img/select-product-2.jpg" alt=""></td>
+                                                <td class="si-text">
+                                                    <div class="product-selected">
+                                                        <p>$60.00 x 1</p>
+                                                        <h6>Kabino Bedside Table</h6>
+                                                    </div>
+                                                </td>
+                                                <td class="si-close">
+                                                    <i class="ti-close"></i>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="select-total">
+                                    <span><?php echo $lang['total'] ?></span>
+                                    <h5>$120.00</h5>
+                                </div>
+                                <div class="select-button">
+                                    <a href="#" class="primary-btn view-card"><?php echo $lang['cart_view'] ?></a>
+                                    <a href="check-out.php"
+                                        class="primary-btn checkout-btn"><?php echo $lang['check_out'] ?></a>
+                                </div>
                             </div>
-                            <div class="select-total">
-                                <span><?php echo $lang['total'] ?></span>
-                                <h5>$120.00</h5>
-                            </div>
-                            <div class="select-button">
-                                <a href="#" class="primary-btn view-card"><?php echo $lang['cart_view'] ?></a>
-                                <a href="check-out.php"
-                                    class="primary-btn checkout-btn"><?php echo $lang['check_out'] ?></a>
-                            </div>
-                        </div>
-                        </div>
-                    </li>
-                </ul>  
+                </div>
+                </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -112,7 +116,7 @@
         <div class="container">
             <nav class="nav-menu mobile-menu">
                 <ul>
-                    <li class="active"><a href="./index.php">Home</a></li>
+                    <li class="active"><a href="./index.php"><?php echo $lang['Inicio'] ?></a></li>
                     <li><a href="./shop.php">Shop</a></li>
                     <li><a href="#">Collection</a>
                         <ul class="dropdown">

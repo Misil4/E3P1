@@ -1,3 +1,4 @@
+<?php include "./PHP/Idioma.php"?>
 <!DOCTYPE html>
 <html lang="eus">
 
@@ -49,7 +50,7 @@
                         </div>
                     </div>
                     <div class="off-card">
-                        <h2>Sale <span>50%</span></h2>
+                        <h2> <span>50%</span></h2>
                     </div>
                 </div>
             </div>
@@ -73,7 +74,7 @@
     </section>
     <!-- Hero Section End -->
 
-    
+
 
     <!-- Women Banner Section Begin -->
     <section class="women-banner spad">

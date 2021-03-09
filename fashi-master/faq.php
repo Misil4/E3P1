@@ -1,5 +1,6 @@
+<?php include "./PHP/Idioma.php"?>
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">

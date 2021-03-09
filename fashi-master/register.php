@@ -1,3 +1,4 @@
+<?php include "./PHP/Idioma.php"?>
 <!DOCTYPE html>
 <html lang="zxx">
 

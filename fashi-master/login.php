@@ -1,3 +1,4 @@
+<?php include "./PHP/Idioma.php"?>
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -78,7 +79,7 @@
                             <button type="submit" class="site-btn login-btn">Sign In</button>
                         </form>
                         <div class="switch-login">
-                            <a href="./register.html" class="or-login">Or Create An Account</a>
+                            <a href="./register.php" class="or-login">Or Create An Account</a>
                         </div>
                     </div>
                 </div>

@@ -19,6 +19,9 @@ $lang = array(
     "es" => '<img src="img/flag-4.png" width="25px"></img>',
     "eus" => '<img src="img/flag-3.png"></img>',
 
+    //Index
+
+    "Oferta" => "Rebajas",
     //  Area de Contacto
 
     "Contacta con nosotros" => "Contacta con nosotros",
@@ -29,5 +32,5 @@ $lang = array(
     'Comentario explicación nombre' => 'Introducce tu nombre',
     'Comentario explicación email' => 'Introducce tu apellido',
     'Comentario explicación mensaje' => 'Introducce tu mensaje',
-    'Enviar Mensaje' => 'Enviar Mensaje'
+    'Enviar Mensaje' => 'Enviar Mensaje',
 );
