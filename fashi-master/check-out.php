@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<?php
-include "configuracion.php"
-
-?>
+<?php include "./PHP/Idioma.php"?>
 <html lang="es">
 
 <head>
@@ -57,7 +54,7 @@ include "configuracion.php"
     <!-- Shopping Cart Section Begin -->
     <section class="checkout-section spad">
         <div class="container">
-            <form action="#" class="checkout-form">
+            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top" action="post" class="checkout-form">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="checkout-content">
@@ -120,7 +117,7 @@ include "configuracion.php"
                         <div class="place-order">
                             <h4>Your Order</h4>
                             <div class="order-total">
-                                <ul class="order-table">
+                                <ul class="order-table" style="margin-bottom: 25px;">
                                     <li>Product <span>Total</span></li>
                                     <li class="fw-normal">Combination x 1 <span>$60.00</span></li>
                                     <li class="fw-normal">Combination x 1 <span>$60.00</span></li>
@@ -128,24 +125,30 @@ include "configuracion.php"
                                     <li class="fw-normal">Subtotal <span>$240.00</span></li>
                                     <li class="total-price">Total <span>$240.00</span></li>
                                 </ul>
-                                <div class="payment-check">
+                                <div class="payment-text" style="padding-top: -25px;padding-bottom: 25px; text-align: center;">
                                     <div class="pc-item">
-                                        <label for="pc-check">
-                                            Cheque Payment
-                                            <input type="checkbox" id="pc-check">
-                                            <span class="checkmark"></span>
-                                        </label>
-                                    </div>
-                                    <div class="pc-item">
-                                        <label for="pc-paypal">
-                                            Paypal
-                                            <input type="checkbox" id="pc-paypal">
-                                            <span class="checkmark"></span>
-                                        </label>
+                                        <h5>El pago se va a realizar con PayPal</h5>
                                     </div>
                                 </div>
                                 <div class="order-btn">
-                                    <button type="submit" class="site-btn place-btn">Place Order</button>
+                                    <!-- Todo lo de paypal -->
+
+                                    <input type="hidden" name="cmd" value="_xclick">
+                                    <input type="hidden" name="business" value="9Z3ZPHG9RENBL">
+                                    <input type="hidden" name="lc" value="US">
+                                    <input type="hidden" name="item_name" value="Prueba">
+                                    <input type="hidden" name="item_number" value="Prueba">
+                                    <input type="hidden" name="amount" value="12.00">
+                                    <input type="hidden" name="currency_code" value="EUR">
+                                    <input type="hidden" name="button_subtype" value="services">
+                                    <input type="hidden" name="no_note" value="1">
+                                    <input type="hidden" name="no_shipping" value="1">
+                                    <input type="hidden" name="rm" value="1">
+                                    <input type="hidden" name="return" value="https://dddddddd.com">
+                                    <input type="hidden" name="cancel_return" value="https://dddddddd.com">
+                                    <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHosted">
+                                    <input type="hidden" name="notify_url" value="https://dddddddd.com">
+                                    <button type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class="site-btn place-btn">Place Order</button>
                                 </div>
                             </div>
                         </div>
