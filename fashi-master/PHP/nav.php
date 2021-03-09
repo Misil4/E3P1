@@ -117,16 +117,15 @@
             <nav class="nav-menu mobile-menu">
                 <ul>
                     <li class="active"><a href="./index.php"><?php echo $lang['Inicio'] ?></a></li>
-                    <li><a href="./shop.php">Shop</a></li>
-                    <li><a href="#">Collection</a>
+                    <li><a href="./shop.php"><?php echo $lang['Shop'] ?></a></li>
+                    <li><a href="#"><?php echo $lang['categories'] ?></a>
                         <ul class="dropdown">
-                            <li><a href="#">Men's</a></li>
-                            <li><a href="#">Women's</a></li>
-                            <li><a href="#">Kid's</a></li>
+                            <li><a href="#"><?php echo $lang['Men'] ?></a></li>
+                            <li><a href="#"><?php echo $lang['Women'] ?></a></li>
                         </ul>
                     </li>
-                    <li><a href="./blog.php">Blog</a></li>
-                    <li><a href="./contact.php">Contact</a></li>
+                    <li><a href="./blog.php"><?php echo $lang['Blog'] ?></a></li>
+                    <li><a href="./contact.php"><?php echo $lang['Contacto'] ?></a></li>
                     <li><a href="#">Pages</a>
                         <ul class="dropdown">
                             <li><a href="./blog-details.php">Blog Details</a></li>

@@ -46,11 +46,11 @@
                             <h1>Black friday</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore</p>
-                            <a href="./shop.php" class="primary-btn">Shop Now</a>
+                            <a href="./shop.php" class="primary-btn"><?php echo $lang['eslogan'] ?></a>
                         </div>
                     </div>
                     <div class="off-card">
-                        <h2> <span>50%</span></h2>
+                        <h2><?php echo $lang['Oferta'] ?><span>50%</span></h2>
                     </div>
                 </div>
             </div>
@@ -62,11 +62,11 @@
                             <h1>Black friday</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                 incididunt ut labore et dolore</p>
-                            <a href="#" class="primary-btn">Shop Now</a>
+                            <a href="#" class="primary-btn"><?php echo $lang['eslogan'] ?></a>
                         </div>
                     </div>
                     <div class="off-card">
-                        <h2>Sale <span>50%</span></h2>
+                        <h2><?php echo $lang['Oferta'] ?><span>50%</span></h2>
                     </div>
                 </div>
             </div>
@@ -93,13 +93,13 @@
                         <div class="product-item">
                             <div class="pi-pic">
                                 <img src="img/products/women-1.jpg" alt="">
-                                <div class="sale">Sale</div>
+                                <div class="sale"><?php echo $lang['Oferta'] ?></div>
                                 <div class="icon">
                                     <i class="icon_heart_alt"></i>
                                 </div>
                                 <ul>
                                     <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="#">+ Quick View</a></li>
+                                    <li class="quick-view"><a href="#">+ <?php echo $lang['Ver mas'] ?></a></li>
                                     <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
                                 </ul>
                             </div>
@@ -122,7 +122,7 @@
                                 </div>
                                 <ul>
                                     <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="#">+ Quick View</a></li>
+                                    <li class="quick-view"><a href="#">+ <?php echo $lang['Ver mas'] ?></a></li>
                                     <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
                                 </ul>
                             </div>
@@ -144,7 +144,7 @@
                                 </div>
                                 <ul>
                                     <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="#">+ Quick View</a></li>
+                                    <li class="quick-view"><a href="#">+ <?php echo $lang['Ver mas'] ?></a></li>
                                     <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
                                 </ul>
                             </div>
@@ -166,7 +166,7 @@
                                 </div>
                                 <ul>
                                     <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
-                                    <li class="quick-view"><a href="#">+ Quick View</a></li>
+                                    <li class="quick-view"><a href="#">+ <?php echo $lang['Ver mas'] ?></a></li>
                                     <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
                                 </ul>
                             </div>
@@ -187,7 +187,7 @@
     </section>
     <!-- Women Banner Section End -->
 
-    <!-- Instagram Section Begin -->
+    <!-- Instagram Section Begin(instagram feed) -->
     <div class="instagram-photo">
         <div class="insta-item set-bg" data-setbg="img/insta-1.jpg">
             <div class="inside-text">
