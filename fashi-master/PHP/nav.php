@@ -22,8 +22,6 @@
                         <?php echo $lang['eus'] ?> </a>
                 </div>
                 <div class="top-social">
-                    <a href="#"><i><img src="./img/whatsapp.svg" width="16px" height="16px"
-                                style="margin-bottom: 3px;"></i></a>
                     <a href="#"><i class="ti-facebook"></i></a>
                     <a href="#"><i class="ti-twitter-alt"></i></a>
                     <a href="#"><i class="ti-linkedin"></i></a>
@@ -48,7 +46,7 @@
                 </div>
                 <div class="col-lg-7 col-md-7">
                     <div class="advanced-search">
-                        <button type="button" class="category-btn"><?php echo $lang['categories'] ?></button>
+                        <button type="button" class="category-btn"><?php echo $lang['Miembros'] ?></button>
                         <div class="input-group">
                             <input type="text" placeholder=<?php echo $lang['categories_description'] ?>>
                             <button type="button"
@@ -105,10 +103,12 @@
                                         class="primary-btn checkout-btn"><?php echo $lang['check_out'] ?></a>
                                 </div>
                             </div>
+
                 </div>
                 </li>
                 </ul>
             </div>
+            <a href="#"><i><img src="./img/whatsapp.svg" width="16px" height="16px" style="margin-bottom: 3px;"></i></a>
         </div>
     </div>
     </div>
@@ -121,9 +121,7 @@ Serums, Mascarillas y parches, Hidratantes, Ojos, Protector solar, Mascarillas
 de noche y bb cream), por tipo de piel (Seca, mixta, grasa, sensible) y por
 problema concreto (Anti-edad, Acné, Poros, Manchas y cicatrices,
 Deshidratación, Rojez y rosácea). -->
-                    <li class="active"><a href="./index.php"><?php echo $lang['Inicio'] ?></a></li>
-                    <li><a href="./shop.php"><?php echo $lang['Shop'] ?></a></li>
-                    <li><a href="#"><?php echo $lang['categories'] ?></a>
+                    <li class="active"><a href="./shop.php"><?php echo $lang['Productos'] ?></a>
                         <ul class="dropdown">
                             <li><a href="#"><?php echo $lang['Limpiadores'] ?></a></li>
                             <li><a href="#"><?php echo $lang['Exfoliantes'] ?></a></li>
@@ -137,18 +135,11 @@ Deshidratación, Rojez y rosácea). -->
                             <li><a href="#"><?php echo $lang['Mascarillas de noche y bb cream'] ?></a></li>
                         </ul>
                     </li>
+                    <li><a href="./shop.php"><?php echo $lang['Marcas'] ?></a></li>
+                    <li><a href="#"><?php echo $lang['Miembros'] ?></a>
+                    </li>
                     <li><a href="./blog.php"><?php echo $lang['Blog'] ?></a></li>
                     <li><a href="./contact.php"><?php echo $lang['Contacto'] ?></a></li>
-                    <li><a href="#">Pages</a>
-                        <ul class="dropdown">
-                            <li><a href="./blog-details.php">Blog Details</a></li>
-                            <li><a href="./shopping-cart.php">Shopping Cart</a></li>
-                            <li><a href="./check-out-php">Checkout</a></li>
-                            <li><a href="./faq.php">Faq</a></li>
-                            <li><a href="./register.php">Register</a></li>
-                            <li><a href="./login.php">Login</a></li>
-                        </ul>
-                    </li>
                 </ul>
             </nav>
             <div id="mobile-menu-wrap"></div>
