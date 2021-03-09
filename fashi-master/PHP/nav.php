@@ -116,11 +116,6 @@
         <div class="container">
             <nav class="nav-menu mobile-menu">
                 <ul>
-                    <!--(Limpiadores, Exfoliantes, Tónicos, Esencias,
-Serums, Mascarillas y parches, Hidratantes, Ojos, Protector solar, Mascarillas
-de noche y bb cream), por tipo de piel (Seca, mixta, grasa, sensible) y por
-problema concreto (Anti-edad, Acné, Poros, Manchas y cicatrices,
-Deshidratación, Rojez y rosácea). -->
                     <li class="active"><a href="./shop.php"><?php echo $lang['Productos'] ?></a>
                         <ul class="dropdown">
                             <li><a href="#"><?php echo $lang['Limpiadores'] ?></a></li>

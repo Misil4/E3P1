@@ -1,3 +1,4 @@
+<?php require "./PHP/Idioma.php"?>
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -86,14 +87,18 @@
                             <form action="#" class="comment-form">
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <input type="text" placeholder="<?php echo $lang['Comentario explicación nombre'] ?>">
+                                        <input type="text"
+                                            placeholder="<?php echo $lang['Comentario explicación nombre'] ?>">
                                     </div>
                                     <div class="col-lg-6">
-                                        <input type="text" placeholder="<?php echo $lang['Comentario explicación email'] ?>">
+                                        <input type="text"
+                                            placeholder="<?php echo $lang['Comentario explicación email'] ?>">
                                     </div>
                                     <div class="col-lg-12">
-                                        <textarea placeholder="<?php echo $lang['Comentario explicación mensaje'] ?>"></textarea>
-                                        <button type="submit" class="site-btn"><?php echo $lang['Enviar Mensaje'] ?></button>
+                                        <textarea
+                                            placeholder="<?php echo $lang['Comentario explicación mensaje'] ?>"></textarea>
+                                        <button type="submit"
+                                            class="site-btn"><?php echo $lang['Enviar Mensaje'] ?></button>
                                     </div>
                                 </div>
                             </form>
@@ -201,8 +206,11 @@
                     <div class="col-lg-12">
                         <div class="copyright-text">
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>
+                            document.write(new Date().getFullYear());
+                            </script> All rights reserved | This template is made with <i class="fa fa-heart-o"
+                                aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </div>
                         <div class="payment-pic">
                             <img src="img/payment-method.png" alt="">

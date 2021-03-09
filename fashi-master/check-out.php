@@ -1,5 +1,5 @@
+<?php require "./PHP/Idioma.php"?>
 <!DOCTYPE html>
-<?php include "./PHP/Idioma.php"?>
 <html lang="es">
 
 <head>
@@ -54,7 +54,8 @@
     <!-- Shopping Cart Section Begin -->
     <section class="checkout-section spad">
         <div class="container">
-            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top" action="post" class="checkout-form">
+            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top" action="post"
+                class="checkout-form">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="checkout-content">
@@ -125,7 +126,8 @@
                                     <li class="fw-normal">Subtotal <span>$240.00</span></li>
                                     <li class="total-price">Total <span>$240.00</span></li>
                                 </ul>
-                                <div class="payment-text" style="padding-top: -25px;padding-bottom: 25px; text-align: center;">
+                                <div class="payment-text"
+                                    style="padding-top: -25px;padding-bottom: 25px; text-align: center;">
                                     <div class="pc-item">
                                         <h5>El pago se va a realizar con PayPal</h5>
                                     </div>
@@ -148,7 +150,10 @@
                                     <input type="hidden" name="cancel_return" value="https://dddddddd.com">
                                     <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHosted">
                                     <input type="hidden" name="notify_url" value="https://dddddddd.com">
-                                    <button type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class="site-btn place-btn">Place Order</button>
+                                    <button type="image"
+                                        src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0"
+                                        name="submit" alt="PayPal - The safer, easier way to pay online!"
+                                        class="site-btn place-btn">Place Order</button>
                                 </div>
                             </div>
                         </div>
