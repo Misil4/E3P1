@@ -1,5 +1,6 @@
+<?php require "./PHP/Idioma.php"?>
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -7,7 +8,7 @@
     <meta name="keywords" content="Fashi, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Fashi | Template</title>
+    <title><?php echo $lang['titulo'] ?></title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
@@ -31,7 +32,7 @@
     </div>
 
     <!-- Header Section Begin -->
-    
+
     <!-- Header End -->
     <?php include './PHP/nav.php';?>
     <!-- Breadcrumb Section Begin -->
@@ -40,8 +41,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-text">
-                        <a href="#"><i class="fa fa-home"></i> Home</a>
-                        <span>Shop</span>
+                        <a href="#"><i class="fa fa-home"></i> <?php echo $lang['Inicio'] ?></a>
+                        <span><?php echo $lang['Shop'] ?></span>
                     </div>
                 </div>
             </div>
@@ -55,7 +56,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-8 order-2 order-lg-1 produts-sidebar-filter">
                     <div class="filter-widget">
-                        <h4 class="fw-title">Categories</h4>
+                        <h4 class="fw-title"><?php echo $lang['categories'] ?></h4>
                         <ul class="filter-catagories">
                             <li><a href="#">Men</a></li>
                             <li><a href="#">Women</a></li>

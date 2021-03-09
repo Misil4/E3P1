@@ -1,4 +1,4 @@
-<?php include "./PHP/Idioma.php"?>
+<?php require "./PHP/Idioma.php"?>
 <!DOCTYPE html>
 <html lang="eus">
 
