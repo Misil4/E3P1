@@ -39,6 +39,20 @@ $lang = array(
 
     "Oferta" => "Rebajas",
     "Ver mas" => "Ver mas",
+
+    //login
+
+    "Email" => "Correo Electronico",
+    "Password" => "Contraseña",
+    "Save Password" => "Guardar Contraseña",
+    "Lost Password" => "Recuperar Contraseña",
+    "Or Create An Account" => "O Crea Una Cuenta",
+
+    //register
+
+    "Register" => "Registro",
+    "Password Confirm" => "Confirmar Contraseña",
+    "Or Login" => "O Inicia Sesion",
     //  Area de Contacto
 
     "Contacta con nosotros" => "Contacta con nosotros",

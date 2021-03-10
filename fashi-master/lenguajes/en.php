@@ -35,6 +35,18 @@ $lang = array(
     "Oferta" => "Sales",
     "Ver mas" => "See more",
 
+    //login
+    "Email" => "Email",
+    "Password" => "Password",
+    "Save Password" => "Save Password",
+    "Lost Password" => "Lost Password",
+    "Or Create An Account" => "Or Create An Account",
+
+    //register
+    "Register" => "Register",
+    "Password Confirm" => "Password Confirm",
+    "Or Login" => "Or Login",
+
     //general
     "en" => '<img src="img/flag-1.jpg"></img>',
     "es" => '<img src="img/flag-4.png" width="25px"></img>',

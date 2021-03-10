@@ -14,7 +14,7 @@
                 </div>
             </div>
             <div class="ht-right">
-                <a href="#" class="login-panel"><i class="fa fa-user"></i><?php echo $lang['login'] ?></a>
+                <a href="./login.php" class="login-panel"><i class="fa fa-user"></i><?php echo $lang['login'] ?></a>
                 <div class="lan-selector">
                     <a href="index.php?lang=es" style="margin-left: 10px;"> <?php echo $lang['es'] ?> </a> | <a
                         href="index.php?lang=en">

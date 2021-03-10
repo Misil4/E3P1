@@ -1,6 +1,6 @@
 <?php include "./PHP/Idioma.php"?>
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <meta name="keywords" content="Fashi, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Fashi | Template</title>
+    <title><?php echo $lang['titulo'] ?></title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
@@ -32,7 +32,7 @@
     </div>
 
     <!-- Header Section Begin -->
-    <?php include './PHP/nav.php';?>
+    <?php include "./PHP/nav.php"?>
     <!-- Header End -->
 
     <!-- Breadcrumb Section Begin -->
@@ -41,8 +41,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-text">
-                        <a href="#"><i class="fa fa-home"></i> Home</a>
-                        <span>Login</span>
+                        <a href="#"><i class="fa fa-home"></i><?php echo $lang['Inicio'] ?></a>
+                        <span><?php echo $lang['login'] ?></span>
                     </div>
                 </div>
             </div>
@@ -56,30 +56,30 @@
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="login-form">
-                        <h2>Login</h2>
+                        <h2><?php echo $lang['login'] ?></h2>
                         <form action="#">
                             <div class="group-input">
-                                <label for="username">Username or email address *</label>
+                                <label for="username"><?php echo $lang['Email'] ?> *</label>
                                 <input type="text" id="username">
                             </div>
                             <div class="group-input">
-                                <label for="pass">Password *</label>
+                                <label for="pass"><?php echo $lang['Password'] ?> *</label>
                                 <input type="text" id="pass">
                             </div>
                             <div class="group-input gi-check">
                                 <div class="gi-more">
                                     <label for="save-pass">
-                                        Save Password
+                                        <?php echo $lang['Save Password'] ?>
                                         <input type="checkbox" id="save-pass">
                                         <span class="checkmark"></span>
                                     </label>
-                                    <a href="#" class="forget-pass">Forget your Password</a>
+                                    <a href="#" class="forget-pass"><?php echo $lang['Lost Password'] ?></a>
                                 </div>
                             </div>
-                            <button type="submit" class="site-btn login-btn">Sign In</button>
+                            <button type="submit" class="site-btn login-btn"><?php echo $lang['login'] ?></button>
                         </form>
                         <div class="switch-login">
-                            <a href="./register.php" class="or-login">Or Create An Account</a>
+                            <a href="./register.php" class="or-login"><?php echo $lang['Or Create An Account'] ?></a>
                         </div>
                     </div>
                 </div>

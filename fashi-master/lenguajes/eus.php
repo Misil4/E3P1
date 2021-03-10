@@ -37,6 +37,20 @@ $lang = array(
 
     "Oferta" => "Beherapena",
     "Ver mas" => "Gehiago ikusi",
+
+    //login
+
+    "Email" => "Posta Elektronikoa",
+    "Password" => "Pasahitza",
+    "Save Password" => "Pasahitza Gorde",
+    "Lost Password" => "Pasahitza Berreskuratu",
+    "Or Create An Account" => "Edo Kontu Bat Sortu",
+
+    //register
+
+    "Register" => "Erregistroa",
+    "Password Confirm" => "Pasahitza Baieztatu",
+    "Or Login" => "Edo Saioa Hasi",
     //  Area de Contacto
 
     "Contacta con nosotros" => "Gurekin harremanetan jarri",
