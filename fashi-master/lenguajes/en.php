@@ -1,7 +1,7 @@
 <?php
 
 $lang = array(
-
+    //Nav
     "titulo" => "K-Beauty Your korean cosmetics shop",
     "login" => "Login",
     "Miembros" => "Members",
@@ -19,7 +19,7 @@ $lang = array(
     "categories_description" => "Search",
     "total" => "Total:",
     "cart_view" => "VIEW CART",
-    "check_out" => "CHECK OUT",
+    "Check_out" => "CHECK OUT",
     "eslogan" => "SHOP NOW",
     "Inicio" => "Home",
     "Productos" => "Products",
@@ -29,6 +29,13 @@ $lang = array(
     "Contacto" => "Contact",
     "Descripcion" => "This is the description of my English Website",
     "Titular" => "My Website in English",
+
+    //Footer
+
+    "Address" => "Adress: Walk of Heriz 48, San Sebastian 20008",
+    "Phone" => "Phone",
+    "Copy" => "All Rights Reserved",
+    "Information" => "Information",
 
     // Index
 
@@ -51,4 +58,5 @@ $lang = array(
     "en" => '<img src="img/flag-1.jpg"></img>',
     "es" => '<img src="img/flag-4.png" width="25px"></img>',
     "eus" => '<img src="img/flag-3.png"></img>',
+
 );

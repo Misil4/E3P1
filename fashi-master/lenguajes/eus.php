@@ -1,7 +1,7 @@
 <?php
 
 $lang = array(
-
+    //Nav
     "titulo" => "K-Beauty Zure kosmetika koreak denda",
     "login" => "Saioa hasi",
     "Miembros" => "Kideak",
@@ -20,7 +20,7 @@ $lang = array(
     "categories_description" => "Bilatu",
     "total" => "Totala:",
     "cart_view" => "SASKIA IKUSI",
-    "check_out" => "EROSKETA AMAITU",
+    "Check_out" => "EROSKETA AMAITU",
     "eslogan" => "EROSI ORAIN",
     "Inicio" => "Hasiera",
     "Productos" => "Produktuak",
@@ -33,6 +33,13 @@ $lang = array(
     "en" => '<img src="img/flag-1.jpg"></img>',
     "es" => '<img src="img/flag-4.png" width="25px"></img>',
     "eus" => '<img src="img/flag-3.png"></img>',
+
+    //Footer
+
+    "Address" => "Helbidea: Heriz Pasealekua 48, Donostia 20008",
+    "Phone" => "Telefonoa",
+    "Copy" => "Eskubide Guztiak Erreserbatuak",
+
     // Index
 
     "Oferta" => "Beherapena",

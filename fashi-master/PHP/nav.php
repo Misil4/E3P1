@@ -103,12 +103,13 @@
                                         class="primary-btn checkout-btn"><?php echo $lang['check_out'] ?></a>
                                 </div>
                             </div>
+                            <a class="navbar-brand mx-auto" href="#"><i><img src="./img/whatsapp.svg" width="16px"
+                                        height="16px" style="margin: 0px 20px 5px;"></i>Chat</a>
 
                 </div>
                 </li>
                 </ul>
             </div>
-            <a href="#"><i><img src="./img/whatsapp.svg" width="16px" height="16px" style="margin-bottom: 3px;"></i></a>
         </div>
     </div>
     </div>

@@ -1,7 +1,7 @@
 <?php
 
 $lang = array(
-
+    //Nav
     "titulo" => "K-Beauty Tu tienda online de kosmetika koreana",
     "login" => "Iniciar Sesion",
     "Miembros" => "Miembros",
@@ -21,7 +21,7 @@ $lang = array(
     "categories_description" => "Buscar",
     "total" => "Total:",
     "cart_view" => "VER CESTA",
-    "check_out" => "PROCEDER AL PAGO",
+    "Check_out" => "PROCEDER AL PAGO",
     "eslogan" => "FINALIZAR COMPRA",
     "Inicio" => "Inicio",
     "Productos" => "Productos",
@@ -34,6 +34,13 @@ $lang = array(
     "en" => '<img src="img/flag-1.jpg"></img>',
     "es" => '<img src="img/flag-4.png" width="25px"></img>',
     "eus" => '<img src="img/flag-3.png"></img>',
+
+    //Footer
+
+    "Address" => "Dirección: Paseo de Heriz 48, San Sebastian 20008",
+    "Phone" => "Telefono",
+    "Copy" => "Todos los Derechos Reservados",
+    "Information" => "Información",
 
     //Index
 
