@@ -37,10 +37,12 @@
     <div class="container">
         <div class="inner-header">
             <div class="row">
-                <div class="col-lg-2 col-md-2">
+                <div class="col-lg-1 col-md-1">
                     <div class="logo">
                         <a href="./index.php">
-                            <img src="img/logo.png" alt="">
+                            <img src="img/Logoberria.svg" class="responsive" style="position:relative;bottom:10px;"
+                                alt="">
+                            <!--style="position:relative;bottom:10px;-->
                         </a>
                     </div>
                 </div>
@@ -103,12 +105,16 @@
                                         class="primary-btn checkout-btn"><?php echo $lang['check_out'] ?></a>
                                 </div>
                             </div>
-                            <a class="navbar-brand mx-auto" href="#"><i><img src="./img/whatsapp.svg" width="16px"
-                                        height="16px" style="margin: 0px 20px 5px;"></i>Chat</a>
-
                 </div>
                 </li>
                 </ul>
+                <div>
+                    <div class="select-button" style="margin:0px 20px;">Chat
+                        <a class="navbar-brand ml-auto" href="#"><i><img src="./img/whatsapp.svg" width="16px"
+                                    height="16px"></i>
+                    </div>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
