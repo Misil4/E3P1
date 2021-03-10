@@ -42,7 +42,6 @@
                         <a href="./index.php">
                             <img src="img/Logoberria.svg" class="responsive" style="position:relative;bottom:10px;"
                                 alt="">
-                            <!--style="position:relative;bottom:10px;-->
                         </a>
                     </div>
                 </div>
