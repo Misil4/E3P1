@@ -21,4 +21,33 @@ $res = curl_exec($ch);
 curl_close($ch);
 
 // Sacamos la respuesta por fichero para ver si es VERIFIED
-file_put_contents("test.txt", $res);
+//file_put_contents("test.txt", $res);
+// Comentamos la siguiente línea ya que hemos visto que nos ha devuelto VERIFIED
+
+//file_put_contents("test.txt", $res);
+
+//Añadimos lo siguiente a continuación
+if ($res == "VERIFIED") // Datos validados
+{
+    //Recogemos los datos
+    $receiver_email = $_POST['receiver_email'];
+    $price = $_POST['mc_gross'];
+    $currency = $_POST['mc_currency'];
+    $item_number = $_POST['item_number'];
+    $paymentStatus = $_POST['payment_status'];
+
+    //Comprobamos el email del vendedor
+    if ($receiver_email == "2021.e3p1.talde.1.business@gmail.com") {
+        //Comprobamos la divisa, el precio, el código de ítem y el estatus del pago
+        if ($item_number == "Cart-01-WordPlug" && $currency == "USD" &&
+            $paymentStatus == "Completed" && $price == 99) {
+            file_put_contents("test.txt", "Pago completado correctamente");
+        } else {
+            $data = "$price\r\n$currency\r\n$paymentStatus\r\n$item_number\r\n";
+            file_put_contents("test.txt", "Error en el pago. Datos recibidos: \n" . $data);
+        }
+    } else {
+        //Error en el email recibido
+        file_put_contents("test.txt", "El email del vendedor es incorrecto. Pago enviado a: " . $receiver_email);
+    }
+}
