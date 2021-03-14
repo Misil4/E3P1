@@ -36,9 +36,17 @@ $lang = array(
 
     //Footer
 
-    "Address" => "Helbidea: Heriz Pasealekua 48, Donostia 20008",
+    "Address" => "Helbidea: Laster",
     "Phone" => "Telefonoa",
     "Copy" => "Eskubide Guztiak Erreserbatuak",
+    "Information" => "Informazioa",
+    "Mi cuenta" => "Nire kontua",
+    "Shopping Cart" => "Erosketa Saskia",
+    "Shop" => "Denda",
+    "Join Our Newsletter Now" => "Izena Eman Gure Albisteen Aldizkariari",
+    "Newsletter Now" => "Jaso mezu elektronikoak nobedade eta eskaintza bereziei buruz.",
+    "Enter Email" => "Sartu Posta Elektronikoa",
+    "Subscribe" => "Izena eman",
 
     // Index
 

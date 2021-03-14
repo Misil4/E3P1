@@ -32,10 +32,17 @@ $lang = array(
 
     //Footer
 
-    "Address" => "Adress: Walk of Heriz 48, San Sebastian 20008",
+    "Address" => "Adress: Coming Soon",
     "Phone" => "Phone",
     "Copy" => "All Rights Reserved",
     "Information" => "Information",
+    "Mi cuenta" => "My Account",
+    "Shopping Cart" => "Shopping Cart",
+    "Shop" => "Shop",
+    "Join Our Newsletter Now" => "Join Our Newsletter Now",
+    "Newsletter Now" => "Get E-mail updates about our latest shop and special offers.",
+    "Enter Email" => "Enter E-Mail",
+    "Subscribe" => "Suscribe",
 
     // Index
 

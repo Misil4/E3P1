@@ -26,7 +26,7 @@ $lang = array(
     "Inicio" => "Inicio",
     "Productos" => "Productos",
     "Marcas" => "Marcas",
-    "Blog" => "Vlog",
+    "Blog" => "Blog",
     "Precios" => "Precios",
     "Contacto" => "Contacto",
     "Descripcion" => "Esta es la descripción de mi Sitio Web en Español",
@@ -37,10 +37,17 @@ $lang = array(
 
     //Footer
 
-    "Address" => "Dirección: Paseo de Heriz 48, San Sebastian 20008",
+    "Address" => "Dirección: Proximamente",
     "Phone" => "Telefono",
     "Copy" => "Todos los Derechos Reservados",
     "Information" => "Información",
+    "Mi cuenta" => "Mi cuenta",
+    "Shopping Cart" => "Carrito de la Compra",
+    "Shop" => "Tienda",
+    "Join Our Newsletter Now" => "Unete a Nuestro Boletín Informativo",
+    "Newsletter Now" => "Recibe correos sobre Novedades y Ofertas especiales.",
+    "Enter Email" => "Introduce Correo Electronico",
+    "Subscribe" => "Suscribete",
 
     //Index
 

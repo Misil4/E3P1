@@ -39,7 +39,7 @@
                 <div class="col-lg-3">
                     <div class="footer-left">
                         <div class="footer-logo">
-                            <a href="#"><img src="img/footer-logo.png" alt=""></a>
+                            <a href="#"><img src="img/imagenesSVG/logoberria.svg" width="100px" alt=""></a>
                         </div>
                         <ul>
                             <li><?php echo $lang['Address'] ?></li>
@@ -50,13 +50,12 @@
                             <a href="#"><i class="fa fa-facebook"></i></a>
                             <a href="#"><i class="fa fa-instagram"></i></a>
                             <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-2 offset-lg-1">
                     <div class="footer-widget">
-                        <h5>Information</h5>
+                        <h5><?php echo $lang['Information'] ?></h5>
                         <ul>
                             <li><a href="#"><?php echo $lang['Miembros'] ?></a></li>
                             <li><a href="#"><?php echo $lang['Blog'] ?></a></li>
@@ -66,22 +65,21 @@
                 </div>
                 <div class="col-lg-2">
                     <div class="footer-widget">
-                        <h5>My Account</h5>
+                        <h5><?php echo $lang['Mi cuenta'] ?></h5>
                         <ul>
-                            <li><a href="#">My Account</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Shopping Cart</a></li>
-                            <li><a href="#">Shop</a></li>
+                            <li><a href="#"><?php echo $lang['Mi cuenta'] ?></a></li>
+                            <li><a href="#"><?php echo $lang['Shopping Cart'] ?> </a></li>
+                            <li><a href="#"><?php echo $lang['Shop'] ?></a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-md-4 text-left">
                     <div class="newslatter-item">
-                        <h5>Join Our Newsletter Now</h5>
-                        <p>Get E-mail updates about our latest shop and special offers.</p>
+                        <h5><?php echo $lang['Join Our Newsletter Now'] ?></h5>
+                        <p><?php echo $lang['Newsletter Now'] ?></p>
                         <form action="#" class="subscribe-form">
-                            <input type="text" placeholder="Enter Your Mail">
-                            <button type="button">Subscribe</button>
+                            <input type="text" placeholder="<?php echo $lang['Enter Email'] ?>">
+                            <button type="button"><?php echo $lang['Subscribe'] ?></button>
                         </form>
                     </div>
                 </div>

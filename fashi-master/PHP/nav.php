@@ -101,7 +101,7 @@
                                 <div class="select-button">
                                     <a href="#" class="primary-btn view-card"><?php echo $lang['cart_view'] ?></a>
                                     <a href="check-out.php"
-                                        class="primary-btn checkout-btn"><?php echo $lang['check_out'] ?></a>
+                                        class="primary-btn checkout-btn"><?php echo $lang['Check_out'] ?></a>
                                 </div>
                             </div>
                 </div>
