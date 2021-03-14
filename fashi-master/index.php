@@ -38,8 +38,8 @@
     <!-- Hero Section Begin -->
     <section class="hero-section">
         <div class="hero-items owl-carousel">
-            <div class="single-hero-items set-bg" data-setbg="img/imagenesSVG/COSRX/AdvancedSnail92AllinoneCream.svg">
-                <div class="container">
+            <div class="single-hero-items">
+                <div class=" container">
                     <div class="row">
                         <div class="col-lg-5">
                             <span>Bag,kids</span>
@@ -48,9 +48,11 @@
                                 incididunt ut labore et dolore</p>
                             <a href="./shop.php" class="primary-btn"><?php echo $lang['eslogan'] ?></a>
                         </div>
+                        <img src="img/imagenesSVG/COSRX/AdvancedSnail92AllinoneCream.svg" width="120px" alt="">
                     </div>
                     <div class="off-card">
-                        <h2><?php echo $lang['Oferta'] ?><span>50%</span></h2>
+                        <h2><?php echo $lang['Oferta'] ?><span>50%</span>
+                        </h2>
                     </div>
                 </div>
             </div>

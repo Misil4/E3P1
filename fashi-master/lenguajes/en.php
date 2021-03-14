@@ -66,4 +66,14 @@ $lang = array(
     "es" => '<img src="img/flag-4.png" width="25px"></img>',
     "eus" => '<img src="img/flag-3.png"></img>',
 
+    //Shop
+    "Categories" => "Categories",
+    "Prices" => "Prices",
+    "Filter" => "Filter",
+    "Skin Type" => "Skin Type",
+    "Dry" => "Dry",
+    "Mixed" => "Mixed",
+    "Oily" => "Oily",
+    "Sensitive" => "Sensitive",
+
 );

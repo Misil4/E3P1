@@ -83,4 +83,14 @@ $lang = array(
     "en" => '<img src="img/flag-1.jpg"></img>',
     "es" => '<img src="img/flag-4.png" width="25px"></img>',
     "eus" => '<img src="img/flag-3.png"></img>',
+
+    //Shop
+    "Categories" => "Categorias",
+    "Prices" => "Precios",
+    "Filter" => "Filtrar",
+    "Skin Type" => "Tipo de Piel",
+    "Dry" => "Seca",
+    "Mixed" => "Mixta",
+    "Oily" => "Grasa",
+    "Sensitive" => "Sensible",
 );

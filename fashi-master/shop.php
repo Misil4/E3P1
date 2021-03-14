@@ -56,40 +56,54 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-8 order-2 order-lg-1 produts-sidebar-filter">
                     <div class="filter-widget">
-                        <h4 class="fw-title"><?php echo $lang['categories'] ?></h4>
+                        <h4 class="fw-title"><?php echo $lang['Categories'] ?></h4>
                         <ul class="filter-catagories">
-                            <li><a href="#">Men</a></li>
-                            <li><a href="#">Women</a></li>
-                            <li><a href="#">Kids</a></li>
+                            <li><a href="#"><?php echo $lang['Limpiadores'] ?></a></li>
+                            <li><a href="#"><?php echo $lang['Exfoliantes'] ?></a></li>
+                            <li><a href="#"><?php echo $lang['Tónicos'] ?></a></li>
+                            <li><a href="#"><?php echo $lang['Esencias'] ?></a></li>
+                            <li><a href="#"><?php echo $lang['Serums'] ?></a></li>
+                            <li><a href="#"><?php echo $lang['Mascarillas'] ?></a></li>
+                            <li><a href="#"><?php echo $lang['Parches'] ?></a></li>
+                            <li><a href="#"><?php echo $lang['Hidratantes ojos'] ?></a></li>
+                            <li><a href="#"><?php echo $lang['Crema Solar'] ?></a></li>
+                            <li><a href="#"><?php echo $lang['Mascarillas de noche y bb cream'] ?></a></li>
                         </ul>
                     </div>
                     <div class="filter-widget">
-                        <h4 class="fw-title">Brand</h4>
+                        <h4 class="fw-title"><?php echo $lang['Marcas'] ?></h4>
                         <div class="fw-brand-check">
                             <div class="bc-item">
                                 <label for="bc-calvin">
-                                    Calvin Klein
+                                    A'pieu
                                     <input type="checkbox" id="bc-calvin">
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
                             <div class="bc-item">
                                 <label for="bc-diesel">
-                                    Diesel
+                                    Banila Co
                                     <input type="checkbox" id="bc-diesel">
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
                             <div class="bc-item">
                                 <label for="bc-polo">
-                                    Polo
+                                    CosRX
                                     <input type="checkbox" id="bc-polo">
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
                             <div class="bc-item">
                                 <label for="bc-tommy">
-                                    Tommy Hilfiger
+                                    Missha
+                                    <input type="checkbox" id="bc-tommy">
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="bc-item">
+                                <label for="bc-tommy">
+                                    Son&Park
                                     <input type="checkbox" id="bc-tommy">
                                     <span class="checkmark"></span>
                                 </label>
@@ -97,7 +111,7 @@
                         </div>
                     </div>
                     <div class="filter-widget">
-                        <h4 class="fw-title">Price</h4>
+                        <h4 class="fw-title"><?php echo $lang['Prices'] ?></h4>
                         <div class="filter-range-wrap">
                             <div class="range-slider">
                                 <div class="price-input">
@@ -112,55 +126,38 @@
                                 <span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default"></span>
                             </div>
                         </div>
-                        <a href="#" class="filter-btn">Filter</a>
+                        <a href="#" class="filter-btn"><?php echo $lang['Filter'] ?></a>
                     </div>
                     <div class="filter-widget">
-                        <h4 class="fw-title">Color</h4>
-                        <div class="fw-color-choose">
-                            <div class="cs-item">
-                                <input type="radio" id="cs-black">
-                                <label class="cs-black" for="cs-black">Black</label>
+                        <h4 class="fw-title"><?php echo $lang['Skin Type'] ?></h4>
+                        <div class="fw-brand-check">
+                            <div class="bc-item">
+                                <label for="bc-calvin">
+                                    <?php echo $lang['Dry'] ?>
+                                    <input type="checkbox" id="bc-calvin">
+                                    <span class="checkmark"></span>
+                                </label>
                             </div>
-                            <div class="cs-item">
-                                <input type="radio" id="cs-violet">
-                                <label class="cs-violet" for="cs-violet">Violet</label>
+                            <div class="bc-item">
+                                <label for="bc-diesel">
+                                    <?php echo $lang['Mixed'] ?>
+                                    <input type="checkbox" id="bc-diesel">
+                                    <span class="checkmark"></span>
+                                </label>
                             </div>
-                            <div class="cs-item">
-                                <input type="radio" id="cs-blue">
-                                <label class="cs-blue" for="cs-blue">Blue</label>
+                            <div class="bc-item">
+                                <label for="bc-polo">
+                                    <?php echo $lang['Oily'] ?>
+                                    <input type="checkbox" id="bc-polo">
+                                    <span class="checkmark"></span>
+                                </label>
                             </div>
-                            <div class="cs-item">
-                                <input type="radio" id="cs-yellow">
-                                <label class="cs-yellow" for="cs-yellow">Yellow</label>
-                            </div>
-                            <div class="cs-item">
-                                <input type="radio" id="cs-red">
-                                <label class="cs-red" for="cs-red">Red</label>
-                            </div>
-                            <div class="cs-item">
-                                <input type="radio" id="cs-green">
-                                <label class="cs-green" for="cs-green">Green</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="filter-widget">
-                        <h4 class="fw-title">Size</h4>
-                        <div class="fw-size-choose">
-                            <div class="sc-item">
-                                <input type="radio" id="s-size">
-                                <label for="s-size">s</label>
-                            </div>
-                            <div class="sc-item">
-                                <input type="radio" id="m-size">
-                                <label for="m-size">m</label>
-                            </div>
-                            <div class="sc-item">
-                                <input type="radio" id="l-size">
-                                <label for="l-size">l</label>
-                            </div>
-                            <div class="sc-item">
-                                <input type="radio" id="xs-size">
-                                <label for="xs-size">xs</label>
+                            <div class="bc-item">
+                                <label for="bc-tommy">
+                                    <?php echo $lang['Sensitive'] ?>
+                                    <input type="checkbox" id="bc-tommy">
+                                    <span class="checkmark"></span>
+                                </label>
                             </div>
                         </div>
                     </div>
