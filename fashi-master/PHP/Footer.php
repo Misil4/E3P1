@@ -58,8 +58,8 @@
                         <h5><?php echo $lang['Information'] ?></h5>
                         <ul>
                             <li><a href="#"><?php echo $lang['Miembros'] ?></a></li>
-                            <li><a href="#"><?php echo $lang['Blog'] ?></a></li>
-                            <li><a href="#"><?php echo $lang['Contacto'] ?></a></li>
+                            <li><a href="blog.php"><?php echo $lang['Blog'] ?></a></li>
+                            <li><a href="contact.php"><?php echo $lang['Contacto'] ?></a></li>
                         </ul>
                     </div>
                 </div>
@@ -67,9 +67,9 @@
                     <div class="footer-widget">
                         <h5><?php echo $lang['Mi cuenta'] ?></h5>
                         <ul>
-                            <li><a href="#"><?php echo $lang['Mi cuenta'] ?></a></li>
-                            <li><a href="#"><?php echo $lang['Shopping Cart'] ?> </a></li>
-                            <li><a href="#"><?php echo $lang['Shop'] ?></a></li>
+                            <li><a href=""><?php echo $lang['Mi cuenta'] ?></a></li>
+                            <li><a href="shopping-cart.php"><?php echo $lang['Shopping Cart'] ?> </a></li>
+                            <li><a href="shop.php"><?php echo $lang['Shop'] ?></a></li>
                         </ul>
                     </div>
                 </div>

@@ -41,9 +41,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-text product-more">
-                        <a href="./index.php"><i class="fa fa-home"></i> Home</a>
-                        <a href="./shop.php">Shop</a>
-                        <span>Check Out</span>
+                        <a href="./index.php"><i class="fa fa-home"></i> <?php echo $lang['Inicio'] ?></a>
+                        <a href="./shop.php"><?php echo $lang['Shop'] ?></a>
+                        <span><?php echo $lang['Check-out'] ?></span>
                     </div>
                 </div>
             </div>
@@ -59,51 +59,51 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="checkout-content">
-                            <a href="#" class="content-btn">Click Here To Login</a>
+                            <a href="#" class="content-btn"><?php echo $lang['Click Here To Login'] ?></a>
                         </div>
-                        <h4>Biiling Details</h4>
+                        <h4><?php echo $lang['Billing Details'] ?></h4>
                         <div class="row">
                             <div class="col-lg-6">
-                                <label for="fir">First Name<span>*</span></label>
+                                <label for="fir"><?php echo $lang['First Name'] ?><span>*</span></label>
                                 <input type="text" id="fir">
                             </div>
                             <div class="col-lg-6">
-                                <label for="last">Last Name<span>*</span></label>
+                                <label for="last"><?php echo $lang['Last Name'] ?><span>*</span></label>
                                 <input type="text" id="last">
                             </div>
                             <div class="col-lg-12">
-                                <label for="cun-name">Company Name</label>
+                                <label for="cun-name"><?php echo $lang['Company Name'] ?></label>
                                 <input type="text" id="cun-name">
                             </div>
                             <div class="col-lg-12">
-                                <label for="cun">Country<span>*</span></label>
+                                <label for="cun"><?php echo $lang['Country'] ?><span>*</span></label>
                                 <input type="text" id="cun">
                             </div>
                             <div class="col-lg-12">
-                                <label for="street">Street Address<span>*</span></label>
+                                <label for="street"><?php echo $lang['Street Address'] ?><span>*</span></label>
                                 <input type="text" id="street" class="street-first">
                                 <input type="text">
                             </div>
                             <div class="col-lg-12">
-                                <label for="zip">Postcode / ZIP (optional)</label>
+                                <label for="zip"><?php echo $lang['Postcode / ZIP'] ?></label>
                                 <input type="text" id="zip">
                             </div>
                             <div class="col-lg-12">
-                                <label for="town">Town / City<span>*</span></label>
+                                <label for="town"><?php echo $lang['City'] ?><span>*</span></label>
                                 <input type="text" id="town">
                             </div>
                             <div class="col-lg-6">
-                                <label for="email">Email Address<span>*</span></label>
+                                <label for="email"><?php echo $lang['Email'] ?><span>*</span></label>
                                 <input type="text" id="email">
                             </div>
                             <div class="col-lg-6">
-                                <label for="phone">Phone<span>*</span></label>
+                                <label for="phone"><?php echo $lang['Phone'] ?><span>*</span></label>
                                 <input type="text" id="phone">
                             </div>
                             <div class="col-lg-12">
                                 <div class="create-item">
                                     <label for="acc-create">
-                                        Create an account?
+                                        <?php echo $lang['Create an account?'] ?>
                                         <input type="checkbox" id="acc-create">
                                         <span class="checkmark"></span>
                                     </label>
@@ -113,23 +113,23 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="checkout-content">
-                            <input type="text" placeholder="Enter Your Coupon Code">
+                            <input type="text" placeholder="<?php echo $lang['Enter Your Coupon Code'] ?>">
                         </div>
                         <div class="place-order">
-                            <h4>Your Order</h4>
+                            <h4><?php echo $lang['Your Order'] ?></h4>
                             <div class="order-total">
                                 <ul class="order-table" style="margin-bottom: 25px;">
-                                    <li>Product <span>Total</span></li>
+                                    <li>Product <span><?php echo $lang['total'] ?></span></li>
                                     <li class="fw-normal">Combination x 1 <span>$60.00</span></li>
                                     <li class="fw-normal">Combination x 1 <span>$60.00</span></li>
                                     <li class="fw-normal">Combination x 1 <span>$120.00</span></li>
-                                    <li class="fw-normal">Subtotal <span>$240.00</span></li>
-                                    <li class="total-price">Total <span>$240.00</span></li>
+                                    <li class="fw-normal"><?php echo $lang['Subtotal'] ?> <span>$240.00</span></li>
+                                    <li class="total-price"><?php echo $lang['total'] ?> <span>$240.00</span></li>
                                 </ul>
                                 <div class="payment-text"
                                     style="padding-top: -25px;padding-bottom: 25px; text-align: center;">
                                     <div class="pc-item">
-                                        <h5>El pago se va a realizar con PayPal</h5>
+                                        <h5><?php echo $lang['The payment will be made with PayPal'] ?></h5>
                                     </div>
                                 </div>
                                 <div class="order-btn">
@@ -153,7 +153,7 @@
                                     <button type="image"
                                         src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0"
                                         name="submit" alt="PayPal - The safer, easier way to pay online!"
-                                        class="site-btn place-btn">Place Order</button>
+                                        class="site-btn place-btn"><?php echo $lang['Place Order'] ?></button>
                                 </div>
                             </div>
                         </div>

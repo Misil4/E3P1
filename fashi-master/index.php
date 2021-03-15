@@ -48,7 +48,8 @@
                                 incididunt ut labore et dolore</p>
                             <a href="./shop.php" class="primary-btn"><?php echo $lang['eslogan'] ?></a>
                         </div>
-                        <img src="img/imagenesSVG/COSRX/AdvancedSnail92AllinoneCream.svg" width="120px" alt="">
+                        <img src="img/imagenesSVG/COSRX/AdvancedSnail92AllinoneCream.svg" width="120px"
+                            style="position:relative;bottom:70px;" alt="">
                     </div>
                     <div class="off-card">
                         <h2 style="color:#000000;"><?php echo $lang['Oferta'] ?><span style="color:#000000">50%</span>
@@ -56,7 +57,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single-hero-items set-bg" data-setbg="img/hero-2.jpg">
+            <div class="single-hero-items set-bg">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5">
@@ -66,6 +67,8 @@
                                 incididunt ut labore et dolore</p>
                             <a href="#" class="primary-btn"><?php echo $lang['eslogan'] ?></a>
                         </div>
+                        <img src="img/imagenesSVG/A_PIEU/Apieu-Glycolic-Acid-Cream.svg" width="120px"
+                            style="position:relative;bottom:130px;" alt="">
                     </div>
                     <div class="off-card">
                         <h2 style="color:#000000"><?php echo $lang['Oferta'] ?><span style="color:#000000">50%</span>

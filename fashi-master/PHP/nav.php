@@ -71,11 +71,10 @@
                 </div>
                 <div class="col-lg-7 col-md-7">
                     <div class="advanced-search">
-                        <button type="button" class="category-btn"><?php echo $lang['Miembros'] ?></button>
                         <div class="input-group">
                             <input type="text" placeholder=<?php echo $lang['categories_description'] ?>>
                             <button type="button"
-                                style="width:70px;height:49px;margin-top: -1px;margin-right: -45px;"><i
+                                style="width:70px;height:49px;margin-top: -1px;margin-right: -185px;"><i
                                     class="ti-search"></i></button>
                         </div>
                     </div>
@@ -123,7 +122,8 @@
                                     <h5>$120.00</h5>
                                 </div>
                                 <div class="select-button">
-                                    <a href="#" class="primary-btn view-card"><?php echo $lang['cart_view'] ?></a>
+                                    <a href="shopping-cart.php"
+                                        class="primary-btn view-card"><?php echo $lang['cart_view'] ?></a>
                                     <a href="check-out.php"
                                         class="primary-btn checkout-btn"><?php echo $lang['Check_out'] ?></a>
                                 </div>
@@ -160,7 +160,7 @@
                             <li><a href="#"><?php echo $lang['Mascarillas de noche y bb cream'] ?></a></li>
                         </ul>
                     </li>
-                    <li><a href="./shop.php"><?php echo $lang['Marcas'] ?></a></li>
+                    <li><a href="./marcas.php"><?php echo $lang['Marcas'] ?></a></li>
                     <li><a href="#"><?php echo $lang['Miembros'] ?></a>
                     </li>
                     <li><a href="./blog.php"><?php echo $lang['Blog'] ?></a></li>
