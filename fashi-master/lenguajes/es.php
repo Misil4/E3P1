@@ -74,9 +74,9 @@ $lang = array(
     "Telefono" => "Telefono",
     'Deja tu comentario' => 'Deja tu comentario',
     'Comentario explicación' => 'En este apartado puedes enviar tus dudas o sugerencias.',
-    'Comentario explicación nombre' => 'Introducce tu nombre',
-    'Comentario explicación email' => 'Introducce tu apellido',
-    'Comentario explicación mensaje' => 'Introducce tu mensaje',
+    'Comentario explicación nombre' => 'Introduce tu nombre',
+    'Comentario explicación email' => 'Introduce tu apellido',
+    'Comentario explicación mensaje' => 'Introduce tu mensaje',
     'Enviar Mensaje' => 'Enviar Mensaje',
 
     //general

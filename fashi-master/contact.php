@@ -41,8 +41,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-text">
-                        <a href="#"><i class="fa fa-home"></i> Home</a>
-                        <span>Contact</span>
+                        <a href="#"><i class="fa fa-home"></i> <?php echo $lang['Inicio'] ?></a>
+                        <span><?php echo $lang['Contacto'] ?></span>
                     </div>
                 </div>
             </div>
