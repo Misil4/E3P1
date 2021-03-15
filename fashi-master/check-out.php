@@ -119,7 +119,7 @@
                             <h4><?php echo $lang['Your Order'] ?></h4>
                             <div class="order-total">
                                 <ul class="order-table" style="margin-bottom: 25px;">
-                                    <li>Product <span><?php echo $lang['total'] ?></span></li>
+                                    <li><?php echo $lang['Productos'] ?> <span><?php echo $lang['total'] ?></span></li>
                                     <li class="fw-normal">Combination x 1 <span>$60.00</span></li>
                                     <li class="fw-normal">Combination x 1 <span>$60.00</span></li>
                                     <li class="fw-normal">Combination x 1 <span>$120.00</span></li>
