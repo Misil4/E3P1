@@ -51,7 +51,7 @@
                         <img src="img/imagenesSVG/COSRX/AdvancedSnail92AllinoneCream.svg" width="120px" alt="">
                     </div>
                     <div class="off-card">
-                        <h2><?php echo $lang['Oferta'] ?><span>50%</span>
+                        <h2 style="color:#000000;"><?php echo $lang['Oferta'] ?><span style="color:#000000">50%</span>
                         </h2>
                     </div>
                 </div>
@@ -68,7 +68,8 @@
                         </div>
                     </div>
                     <div class="off-card">
-                        <h2><?php echo $lang['Oferta'] ?><span>50%</span></h2>
+                        <h2 style="color:#000000"><?php echo $lang['Oferta'] ?><span style="color:#000000">50%</span>
+                        </h2>
                     </div>
                 </div>
             </div>
