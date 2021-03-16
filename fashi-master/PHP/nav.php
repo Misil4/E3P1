@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php echo $lang['titulo'] ?></title>
+    <link rel="shortcut icon" href="img/favicon.ico">
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
@@ -61,11 +62,11 @@
     <div class="container">
         <div class="inner-header">
             <div class="row">
-                <div class="col-lg-1 col-md-1">
+                <div class="col-lg-2 col-md-2">
                     <div class="logo">
                         <a href="./index.php">
-                            <img src="img/Logoberria.svg" class="responsive" style="position:relative;bottom:10px;"
-                                alt="">
+                            <img src="img/LogotipoKberri.svg" class="responsive"
+                                style="padding:0px 20px 0px 20px;position:relative;bottom:30px;" alt="">
                         </a>
                     </div>
                 </div>
@@ -142,7 +143,7 @@
         </div>
     </div>
     </div>
-    <div class="nav-item">
+    <div class="nav-item" style="position:relative;bottom:60px;">
         <div class="container">
             <nav class="nav-menu mobile-menu">
                 <ul>
