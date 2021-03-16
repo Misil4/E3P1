@@ -1,4 +1,4 @@
-<?php require "./PHP/Idioma.php"?>
+<?php require_once "./PHP/Idioma.php"?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -54,75 +54,79 @@
     <section class="product-shop spad">
         <div class="container">
             <div class="row">
-                    <div class="product-list">
-                        <div class="row">
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="product-item">
-                                    <div class="pi-pic">
-                                        <a href=""><img src="img/Imagenes de Marca/Missha.svg" alt="" width="360" height="218"></a>
-                                    </div>
-                                    <div class="pi-text">
-                                        <div class="catagory-name"></div>
-                                        <div class="product-price">
-                                            Cantidad de productos
-                                            <p><strong>6</strong></p>
-                                        </div>
+                <div class="product-list">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <a href=""><img src="img/Imagenes de Marca/Missha.svg" alt="" width="360"
+                                            height="218"></a>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name"></div>
+                                    <div class="product-price">
+                                        Cantidad de productos
+                                        <p><strong>6</strong></p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="product-item">
-                                    <div class="pi-pic">
-                                        <a href=""><img src="img/Imagenes de Marca/son-and-park-logo.svg" alt="" width="360" height="218"></a>
-                                    </div>
-                                    <div class="pi-text">
-                                        <div class="catagory-name"></div>
-                                        <div class="product-price">
-                                            Cantidad de productos
-                                            <p><strong>6</strong></p>
-                                        </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <a href=""><img src="img/Imagenes de Marca/son-and-park-logo.svg" alt="" width="360"
+                                            height="218"></a>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name"></div>
+                                    <div class="product-price">
+                                        Cantidad de productos
+                                        <p><strong>6</strong></p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="product-item">
-                                    <div class="pi-pic">
-                                        <a href=""><img src="img/Imagenes de Marca/COSRX.svg" alt="" width="360" height="218"></a>
-                                    </div>
-                                    <div class="pi-text">
-                                        <div class="catagory-name"></div>
-                                        <div class="product-price">
-                                            Cantidad de productos
-                                            <p><strong>6</strong></p>
-                                        </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <a href=""><img src="img/Imagenes de Marca/COSRX.svg" alt="" width="360"
+                                            height="218"></a>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name"></div>
+                                    <div class="product-price">
+                                        Cantidad de productos
+                                        <p><strong>6</strong></p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="product-item">
-                                    <div class="pi-pic">
-                                        <a href=""><img src="img/Imagenes de Marca/Banila_Pink.svg" alt="" width="360" height="218"></a>
-                                    </div>
-                                    <div class="pi-text">
-                                        <div class="catagory-name"></div>
-                                        <div class="product-price">
-                                            Cantidad de productos
-                                            <p><strong>6</strong></p>
-                                        </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <a href=""><img src="img/Imagenes de Marca/Banila_Pink.svg" alt="" width="360"
+                                            height="218"></a>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name"></div>
+                                    <div class="product-price">
+                                        Cantidad de productos
+                                        <p><strong>6</strong></p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="product-item">
-                                    <div class="pi-pic">
-                                        <a href=""><img src="img/Imagenes de Marca/apieu.svg" alt="" width="360" height="218"></a>
-                                    </div>
-                                    <div class="pi-text">
-                                        <div class="catagory-name"></div>
-                                        <div class="product-price">
-                                            Cantidad de productos
-                                            <p><strong>6</strong></p>
-                                        </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="product-item">
+                                <div class="pi-pic">
+                                    <a href=""><img src="img/Imagenes de Marca/apieu.svg" alt="" width="360"
+                                            height="218"></a>
+                                </div>
+                                <div class="pi-text">
+                                    <div class="catagory-name"></div>
+                                    <div class="product-price">
+                                        Cantidad de productos
+                                        <p><strong>6</strong></p>
                                     </div>
                                 </div>
                             </div>
@@ -130,6 +134,7 @@
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <!-- Product Shop Section End -->

@@ -1,36 +1,69 @@
     <!-- Partner Logo Section Begin -->
-    <div class="partner-logo">
-        <div class="container">
-            <h2 style="color:white;">Marcas preferentes:</h2>
-            <div class="logo-carousel owl-carousel">
-                <div class="logo-item">
-                    <div class="tablecell-inner">
-                        <img src="img/imagenesSVG/logotipos/A_PIEU.svg" height="200px" alt="">
+    <section class="women-banner spad">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="filter-control">
+                        <ul>
+                            <li class="active">Marcas</li>
+                        </ul>
                     </div>
-                </div>
-                <div class="logo-item">
-                    <div class="tablecell-inner">
-                        <img src="img/imagenesSVG/logotipos/Bamilaco.svg" height="200px" alt="">
-                    </div>
-                </div>
-                <div class="logo-item">
-                    <div class="tablecell-inner">
-                        <img src="img/imagenesSVG/logotipos/COSRX-Brand-Logo.svg" height="200px" alt="">
-                    </div>
-                </div>
-                <div class="logo-item">
-                    <div class="tablecell-inner">
-                        <img src="img/imagenesSVG/logotipos/Missha.svg" height="200px" alt="">
-                    </div>
-                </div>
-                <div class="logo-item">
-                    <div class="tablecell-inner">
-                        <img src="img/imagenesSVG/logotipos/sonpark.svg" height="200px" alt="">
+                    <div class="product-slider owl-carousel">
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/imagenesSVG/logotipos/Bamilaco.svg" height="200px" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                            </div>
+                            <div class="pi-text">
+                                <a href="#">
+                                    <h5>BANILA CO</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/imagenesSVG/logotipos/A_PIEU.svg" height="200px" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/imagenesSVG/logotipos/COSRX-Brand-Logo.svg" height="200px" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/imagenesSVG/logotipos/Missha.svg" height="200px" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                            </div>
+                            <div class="pi-text">
+                                <a href="#">
+                                    <h5>MISSHA</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/imagenesSVG/logotipos/sonpark.svg" height="200px" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Partner Logo Section End -->
 
     <!-- Footer Section Begin -->
@@ -40,7 +73,7 @@
                 <div class="col-lg-3">
                     <div class="footer-left">
                         <div class="footer-logo">
-                            <a href="#"><img src="img/logoberria.svg" width="100px" alt=""></a>
+                            <a href="#"><img src="" width="100px" alt=""></a>
                         </div>
                         <ul>
                             <li><?php echo $lang['Address'] ?></li>

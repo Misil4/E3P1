@@ -1,4 +1,4 @@
-<?php require "./PHP/Idioma.php"?>
+<?php require_once "./PHP/Idioma.php"?>
 <!DOCTYPE html>
 <html lang="es">
 

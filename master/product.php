@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="es">
+<?php require_once "./PHP/Idioma.php"?>
 
 <head>
     <meta charset="UTF-8">
@@ -31,7 +32,7 @@
     </div>
 
     <!-- Header Section Begin -->
-  <?php require './PHP/nav.php';?>
+    <?php require './PHP/nav.php';?>
     <!-- Header End -->
 
     <!-- Breadcrumb Section Begin -->

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
-<?php include "./PHP/Idioma.php"?>
+<?php require_once "./PHP/Idioma.php"?>
 
 <head>
     <meta charset="UTF-8">

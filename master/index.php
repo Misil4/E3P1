@@ -1,4 +1,4 @@
-<?php require "./PHP/Idioma.php"?>
+<?php require_once "./PHP/Idioma.php"?>
 <!DOCTYPE html>
 <html lang="eus">
 
@@ -32,7 +32,7 @@
     </div>
 
     <!-- Header Section Begin -->
-    <?php include './PHP/nav.php';?>
+    <?php require_once './PHP/nav.php';?>
     <!-- Header End -->
 
     <!-- Hero Section Begin -->
