@@ -80,8 +80,6 @@
     </section>
     <!-- Hero Section End -->
 
-
-
     <!-- Women Banner Section Begin -->
     <section class="women-banner spad">
         <div class="container-fluid">
@@ -192,6 +190,62 @@
         </div>
     </section>
     <!-- Women Banner Section End -->
+
+    <section class="women-banner spad">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="filter-control">
+                        <ul>
+                            <li class="active">Marcas</li>
+                        </ul>
+                    </div>
+                    <div class="product-slider owl-carousel">
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/imagenesSVG/logotipos/Bamilaco.svg" height="400px" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/imagenesSVG/logotipos/A_PIEU.svg" height="400px" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/imagenesSVG/logotipos/COSRX-Brand-Logo.svg" height="400px" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/imagenesSVG/logotipos/Missha.svg" height="400px" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item">
+                            <div class="pi-pic">
+                                <img src="img/imagenesSVG/logotipos/sonpark.svg" height="400px" alt="">
+                                <div class="icon">
+                                    <i class="icon_heart_alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Instagram Section Begin(instagram feed) -->
     <div class="instagram-photo">
