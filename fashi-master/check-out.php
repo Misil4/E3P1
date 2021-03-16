@@ -59,7 +59,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="checkout-content">
-                            <a href="#" class="content-btn"><?php echo $lang['Click Here To Login'] ?></a>
+                            <a href="login.php" class="content-btn"><?php echo $lang['Click Here To Login'] ?></a>
                         </div>
                         <h4><?php echo $lang['Billing Details'] ?></h4>
                         <div class="row">
