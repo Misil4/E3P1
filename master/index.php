@@ -48,7 +48,7 @@
                                 incididunt ut labore et dolore</p>
                             <a href="./shop.php" class="primary-btn"><?php echo $lang['eslogan'] ?></a>
                         </div>
-                        <img src="img/imagenesSVG/COSRX/AdvancedSnail92AllinoneCream.svg" width="120px"
+                        <img src="img/imagenesSVG/COSRX/Advanced_Snail_92_All_in_one_Cream(1).svg" width="120px"
                             style="position:relative;bottom:70px;" alt="">
                     </div>
                     <div class="off-card">

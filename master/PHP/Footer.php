@@ -1,30 +1,31 @@
     <!-- Partner Logo Section Begin -->
     <div class="partner-logo">
         <div class="container">
+            <h2 style="color:white;">Marcas preferentes:</h2>
             <div class="logo-carousel owl-carousel">
                 <div class="logo-item">
                     <div class="tablecell-inner">
-                        <img src="img/logo-carousel/logo-1.png" alt="">
+                        <img src="img/imagenesSVG/logotipos/A_PIEU.svg" height="200px" alt="">
                     </div>
                 </div>
                 <div class="logo-item">
                     <div class="tablecell-inner">
-                        <img src="img/logo-carousel/logo-2.png" alt="">
+                        <img src="img/imagenesSVG/logotipos/Bamilaco.svg" height="200px" alt="">
                     </div>
                 </div>
                 <div class="logo-item">
                     <div class="tablecell-inner">
-                        <img src="img/logo-carousel/logo-3.png" alt="">
+                        <img src="img/imagenesSVG/logotipos/COSRX-Brand-Logo.svg" height="200px" alt="">
                     </div>
                 </div>
                 <div class="logo-item">
                     <div class="tablecell-inner">
-                        <img src="img/logo-carousel/logo-4.png" alt="">
+                        <img src="img/imagenesSVG/logotipos/Missha.svg" height="200px" alt="">
                     </div>
                 </div>
                 <div class="logo-item">
                     <div class="tablecell-inner">
-                        <img src="img/logo-carousel/logo-5.png" alt="">
+                        <img src="img/imagenesSVG/logotipos/sonpark.svg" height="200px" alt="">
                     </div>
                 </div>
             </div>
@@ -39,7 +40,7 @@
                 <div class="col-lg-3">
                     <div class="footer-left">
                         <div class="footer-logo">
-                            <a href="#"><img src="img/imagenesSVG/logoberria.svg" width="100px" alt=""></a>
+                            <a href="#"><img src="img/logoberria.svg" width="100px" alt=""></a>
                         </div>
                         <ul>
                             <li><?php echo $lang['Address'] ?></li>
