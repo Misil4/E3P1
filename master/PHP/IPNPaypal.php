@@ -11,7 +11,7 @@ $cEmail = $_POST['payer_email'];
 //Comprobamos el email del vendedor
 if ($receiver_email == "2021.e3p1.talde.1.business@gmail.com") {
     //Comprobamos la divisa, el precio, el código de item y el estatus del pago
-    if ($item_number == "Cart-01-WordPlug" && $currency == "USD" &&
+    if ($item_number == "Cart-01-WordPlug" && $currency == "EUR" &&
         $paymentStatus == "Completed" && $price == 99) {
 
         // Instantiation and passing `true` enables exceptions
