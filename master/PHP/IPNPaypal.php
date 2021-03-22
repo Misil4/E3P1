@@ -1,9 +1,10 @@
 <?php
+use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
 
-require "..\PHPMailer\PHPMailer.php";
-require "..\PHPMailer\Exception.php";
-require "..\PHPMailer\SMTP.php";
+require "./PHPMailer/PHPMailer.php";
+require "./PHPMailer/Exception.php";
+require "./PHPMailer/SMTP.php";
 $name = $_POST['first_name'] . " " . $_POST['last_name'];
 $cEmail = $_POST['payer_email'];
 
@@ -32,7 +33,7 @@ if ($receiver_email == "2021.e3p1.talde.1.business@gmail.com") {
             $mail->Port = 587;
             $mail->SMTPAuth = true;
             $mail->Username = $receiver_email;
-            $mail->Password = "XXXXXXXXXX"; // Business email password
+            $mail->Password = "Newepsilon1"; // Business email password
             $mail->SMTPSecure = 'tls';
             $mail->setFrom($receiver_email, "John Doe's Test Store");
             $mail->addAddress($cEmail, $name);
