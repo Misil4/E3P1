@@ -42,6 +42,7 @@
                 <div class=" container">
                     <div class="row">
                         <div class="col-lg-5">
+                            <a href="./db_test.php" class="primary-btn"><?php echo $lang['eslogan'] ?></a>
                             <span>Bag,kids</span>
                             <h1>Black friday</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
