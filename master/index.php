@@ -1,6 +1,6 @@
 <?php require_once "./PHP/Idioma.php"?>
 <!DOCTYPE html>
-<html lang="eus">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
