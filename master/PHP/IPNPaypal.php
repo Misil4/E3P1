@@ -1,24 +1,32 @@
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
 
 require "./PHPMailer/PHPMailer.php";
 require "./PHPMailer/Exception.php";
 require "./PHPMailer/SMTP.php";
+
+        //Recogemos los datos
+        $receiver_email = $_POST['receiver_email'];
+        $price          = $_POST['mc_gross'];
+        $currency       = $_POST['mc_currency'];
+        $item_number    = $_POST['item_number'];
+        $paymentStatus  = $_POST['payment_status']; 
+
 $name = $_POST['first_name'] . " " . $_POST['last_name'];
 $cEmail = $_POST['payer_email'];
 
 //Comprobamos el email del vendedor
 if ($receiver_email == "2021.e3p1.talde.1.business@gmail.com") {
     //Comprobamos la divisa, el precio, el código de item y el estatus del pago
-    if ($item_number == "Cart-01-WordPlug" && $currency == "EUR" &&
-        $paymentStatus == "Completed" && $price == 99) {
+    if ($item_number == "Prueba" && $currency == "EUR" &&
+        $paymentStatus == "Completed" && $price == 12) {
 
         // Instantiation and passing `true` enables exceptions
         $mail = new PHPMailer(true);
         try
         {
-
             $mail->SMTPOptions = array(
                 'ssl' => array(
                     'verify_peer' => false,
