@@ -78,6 +78,8 @@ require_once "./controller/Controller.php";?>
                             <button type="submit" class="site-btn login-btn"><?php echo $lang['login'] ?></button>
                             <?php $NewErabiltzaile['emaila'] = $_POST['username'];
 $NewErabiltzaile['pasahitza'] = $_POST['pass'];
+$result = $erabiltzaileak->Login("emaila", $NewErabiltzaile['emaila']);
+
 ?>
                         </form>
                         <div class="switch-login">

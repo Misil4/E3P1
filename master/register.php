@@ -1,4 +1,5 @@
-<?php require_once "./PHP/Idioma.php"?>
+<?php require_once "./PHP/Idioma.php";
+require_once "./controller/Controller.php";?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -27,9 +28,7 @@
 
 <body>
     <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
+
 
     <!-- Header Section Begin -->
     <?php include './PHP/nav.php';?>
@@ -60,11 +59,11 @@
                         <form name="form" action="" method="post">
                             <div class="group-input">
                                 <label for="username"><?php echo $lang['Email'] ?> *</label>
-                                <input type="text" id="username">
+                                <input type="text" name="username" id="username">
                             </div>
                             <div class="group-input">
                                 <label for="pass"><?php echo $lang['Password'] ?> *</label>
-                                <input type="text" id="pass">
+                                <input type="text" name="pass" id="pass">
                             </div>
                             <div class="group-input">
                                 <label for="con-pass"><?php echo $lang['Password Confirm'] ?> *</label>
@@ -73,10 +72,12 @@
                             <button type="submit" class="site-btn register-btn"><?php echo $lang['Register'] ?></button>
                             <?php $NewErabiltzaile['emaila'] = $_POST['username'];
 $NewErabiltzaile['pasahitza'] = $_POST['pass'];
+$NewErabiltzaile['pasahitza'] = password_hash($NewErabiltzaile['pasahitza'], PASSWORD_BCRYPT);
+$result = $erabiltzaileak->addNew($NewErabiltzaile);
 ?>
                         </form>
                         <div class="switch-login">
-                            <a href="./login.html" class="or-login"><?php echo $lang['Or Login'] ?></a>
+                            <a href="./login.php" class="or-login"><?php echo $lang['Or Login'] ?></a>
                         </div>
                     </div>
                 </div>
