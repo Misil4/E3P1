@@ -57,7 +57,7 @@
                 <div class="col-lg-6 offset-lg-3">
                     <div class="register-form">
                         <h2><?php echo $lang['Register'] ?></h2>
-                        <form action="#">
+                        <form name="form" action="" method="post">
                             <div class="group-input">
                                 <label for="username"><?php echo $lang['Email'] ?> *</label>
                                 <input type="text" id="username">
@@ -71,6 +71,9 @@
                                 <input type="text" id="con-pass">
                             </div>
                             <button type="submit" class="site-btn register-btn"><?php echo $lang['Register'] ?></button>
+                            <?php $NewErabiltzaile['emaila'] = $_POST['username'];
+$NewErabiltzaile['pasahitza'] = $_POST['pass'];
+?>
                         </form>
                         <div class="switch-login">
                             <a href="./login.html" class="or-login"><?php echo $lang['Or Login'] ?></a>

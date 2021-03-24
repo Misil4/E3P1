@@ -1,4 +1,5 @@
-<?php require_once "./PHP/Idioma.php"?>
+<?php require_once "./PHP/Idioma.php";
+require_once "./controller/Controller.php";?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -27,9 +28,6 @@
 
 <body>
     <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
 
     <!-- Header Section Begin -->
     <?php include "./PHP/nav.php"?>
@@ -57,14 +55,15 @@
                 <div class="col-lg-6 offset-lg-3">
                     <div class="login-form">
                         <h2><?php echo $lang['login'] ?></h2>
-                        <form action="#">
+                        <form name="form" action="" method="post">
                             <div class="group-input">
                                 <label for="username"><?php echo $lang['Email'] ?> *</label>
-                                <input type="text" id="username">
+                                <input type="text" name="username" id="username">
+
                             </div>
                             <div class="group-input">
                                 <label for="pass"><?php echo $lang['Password'] ?> *</label>
-                                <input type="text" id="pass">
+                                <input type="text" name="pass" id="pass">
                             </div>
                             <div class="group-input gi-check">
                                 <div class="gi-more">
@@ -77,6 +76,9 @@
                                 </div>
                             </div>
                             <button type="submit" class="site-btn login-btn"><?php echo $lang['login'] ?></button>
+                            <?php $NewErabiltzaile['emaila'] = $_POST['username'];
+$NewErabiltzaile['pasahitza'] = $_POST['pass'];
+?>
                         </form>
                         <div class="switch-login">
                             <a href="./register.php" class="or-login"><?php echo $lang['Or Create An Account'] ?></a>

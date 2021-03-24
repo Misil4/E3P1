@@ -61,8 +61,10 @@ class Conexion
     protected function query($sql)
     {
         $result = $this->dbh->query($sql);
-        if (!$result) {
-            die("Fatal error al ejecutar query");
+        if (!$result) 
+        {
+            echo "Error: " . $sql . "<br>" . $this->dbh->error;
+            die ("Fatal error al ejecutar query");
         }
 
         return $result;
