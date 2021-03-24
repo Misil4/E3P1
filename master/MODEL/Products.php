@@ -2,7 +2,7 @@
 
 require_once "ModelBase.php";
 
-class Classic extends ModelBase
+class Products extends ModelBase
 {
     public function __construct()
     {
