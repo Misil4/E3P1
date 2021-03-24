@@ -2,7 +2,7 @@
 
 require_once "ModelBase.php";
 
-class Erabiltzailea extends ModelBase
+class Erabiltzaileak extends ModelBase
 {
     public function __construct()
     {
