@@ -290,7 +290,7 @@
     <!-- Instagram Section End -->
 
     <!-- Footer Section Begin -->
-    <?php include './PHP/Footer.php';?>
+    <?php require_once './PHP/Footer.php';?>
     <!-- Footer Section End -->
 
     <!-- Js Plugins -->

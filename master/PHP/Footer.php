@@ -75,4 +75,10 @@
                 </div>
             </div>
         </div>
+        <div class="cookie-banner" style="">
+            <p>
+                By using our website, you agree to our
+                <a href="insert-link">cookie policy</a>
+            </p>
+        </div>
     </footer>
