@@ -49,12 +49,10 @@ if ($receiver_email == "2021.e3p1.talde.1.business@gmail.com") {
             $mail->Subject = "Your purchase Details";
 
             $mail->Body = "
-                Hi, <br><br>
-                Thank you for purchase. In the attachment you will find my Amazing Wordpress Plugin. <br><br>
+                Hola, <br><br>
+                Gracias por la compra. En el archivo adjunto encontrará mi Amazing Wordpress Plugin.<br><br>
 
-                Kind regards,
-
-                Julius Gwiny.
+                Saludos cordiales.
 
             ";
 
