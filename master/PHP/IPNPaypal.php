@@ -1,18 +1,18 @@
 <?php
-use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 
 require "./PHPMailer/PHPMailer.php";
 require "./PHPMailer/Exception.php";
 require "./PHPMailer/SMTP.php";
 
-        //Recogemos los datos
-        $receiver_email = $_POST['receiver_email'];
-        $price          = $_POST['mc_gross'];
-        $currency       = $_POST['mc_currency'];
-        $item_number    = $_POST['item_number'];
-        $paymentStatus  = $_POST['payment_status']; 
+//Recogemos los datos
+$receiver_email = $_POST['receiver_email'];
+$price = $_POST['mc_gross'];
+$currency = $_POST['mc_currency'];
+$item_number = $_POST['item_number'];
+$paymentStatus = $_POST['payment_status'];
 
 $name = $_POST['first_name'] . " " . $_POST['last_name'];
 $cEmail = $_POST['payer_email'];
@@ -43,18 +43,18 @@ if ($receiver_email == "2021.e3p1.talde.1.business@gmail.com") {
             $mail->Username = $receiver_email;
             $mail->Password = "Newepsilon1"; // Business email password
             $mail->SMTPSecure = 'tls';
-            $mail->setFrom($receiver_email, "John Doe's Test Store");
+            $mail->setFrom($receiver_email, "Kberry, zure kosmetika korearra denda");
             $mail->addAddress($cEmail, $name);
             $mail->isHTML(true);
             $mail->Subject = "Your purchase Details";
 
             $mail->Body = "
-                Hi, <br><br>
-                Thank you for purchase. In the attachment you will find my Amazing Wordpress Plugin. <br><br>
+            Kaixo, <br> <br>
+            Eskerrik asko erosteagatik. Eranskinean nire Wordpress Plugin Harrigarria aurkituko duzu. <br> <br>
 
-                Kind regards,
+            Agur bero bat,
 
-                Julius Gwiny.
+            Kberry.
 
             ";
 
