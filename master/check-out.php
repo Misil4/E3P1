@@ -150,7 +150,7 @@
                                     <input type="hidden" name="cancel_return" value="https://dddddddd.com">
                                     <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHosted">
                                     <input type="hidden" name="notify_url"
-                                        value="https://horrible-kangaroo-81.loca.lt/E3P1/master/PHP/IPNPaypal.php">
+                                        value="https://bad-snail-36.loca.lt/E3P1/master/PHP/IPNPaypal.php">
                                     <button type="image"
                                         src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0"
                                         name="submit" alt="PayPal - The safer, easier way to pay online!"
