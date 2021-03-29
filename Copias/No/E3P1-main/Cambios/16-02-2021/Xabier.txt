@@ -1,5 +1,0 @@
-Dia 16/2/2021
-
-1.- Correción de la selecion de los idiomas.
-2.- Se ha removido de la pagina la seccion del blog.
-3.- Se ha puesto el Link para poder haceder al login.
