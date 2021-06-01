@@ -1,0 +1,98 @@
+[19-Apr-2021 10:16:23 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/login_form.php on line 2
+[19-Apr-2021 18:02:31 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/register_form.php on line 2
+[19-Apr-2021 18:02:42 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/register_form.php on line 2
+[19-Apr-2021 18:04:35 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/register_form.php on line 2
+[20-Apr-2021 06:24:37 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/register_form.php on line 2
+[20-Apr-2021 06:27:34 UTC] PHP Fatal error:  require(): Failed opening required '..\PHPMailer\PHPMailer.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/register_form.php on line 8
+[20-Apr-2021 06:29:23 UTC] PHP Fatal error:  require(): Failed opening required '..\PHPMAILER\PHPMailer.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/register_form.php on line 8
+[22-Apr-2021 07:00:55 UTC] PHP Fatal error:  require(): Failed opening required '..\PHPMailer\PHPMailer.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 6
+[22-Apr-2021 10:11:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function set() in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 20
+[22-Apr-2021 10:23:23 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/register_form.php on line 2
+[22-Apr-2021 10:24:55 UTC] PHP Fatal error:  require(): Failed opening required '..\PHPMailer\PHPMailer.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/register_form.php on line 8
+[22-Apr-2021 10:25:28 UTC] PHP Fatal error:  require(): Failed opening required '..\PHPMAILER\PHPMailer.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/register_form.php on line 8
+[22-Apr-2021 10:27:14 UTC] PHP Fatal error:  require(): Failed opening required '/home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/../controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/register_form.php on line 2
+[22-Apr-2021 10:28:23 UTC] PHP Fatal error:  require(): Failed opening required '/home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/../PHPMAILER\PHPMailer.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/register_form.php on line 6
+[22-Apr-2021 16:46:26 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/login_form.php on line 2
+[22-Apr-2021 16:52:01 UTC] PHP Fatal error:  require(): Failed opening required '.\..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/login_form.php on line 2
+[22-Apr-2021 16:52:40 UTC] PHP Parse error:  syntax error, unexpected '"\..\controller\Controller.php' (T_CONSTANT_ENCAPSED_STRING) in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/login_form.php on line 2
+[22-Apr-2021 16:52:52 UTC] PHP Fatal error:  require(): Failed opening required '/home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP\..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/login_form.php on line 2
+[22-Apr-2021 17:22:52 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 5
+[22-Apr-2021 17:41:26 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 5
+[22-Apr-2021 18:32:52 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 5
+[22-Apr-2021 19:06:25 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 5
+[22-Apr-2021 19:08:33 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 5
+[22-Apr-2021 19:10:02 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 5
+[22-Apr-2021 19:10:52 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 5
+[22-Apr-2021 19:11:35 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 5
+[22-Apr-2021 19:18:32 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 5
+[22-Apr-2021 20:41:04 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 5
+[22-Apr-2021 20:43:16 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 5
+[22-Apr-2021 20:44:36 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHPcontroller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 5
+[22-Apr-2021 20:45:11 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/controller/Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 5
+[22-Apr-2021 20:46:13 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP../controller/Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 5
+[22-Apr-2021 20:46:59 UTC] PHP Fatal error:  require(): Failed opening required '..\PHPMailer\PHPMailer.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 6
+[22-Apr-2021 20:48:20 UTC] PHP Fatal error:  require(): Failed opening required '/home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/../PHPMailer/PHPMailer.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 6
+[22-Apr-2021 20:48:53 UTC] PHP Fatal error:  require(): Failed opening required '/home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/../PHPMailer/PHPMailer.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 6
+[22-Apr-2021 20:50:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getKodea() on null in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/eskaerak.php:17
+Stack trace:
+#0 /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php(19): Eskaerak->sartuEskaera(NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/eskaerak.php on line 17
+[22-Apr-2021 20:52:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getKodea() on null in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/eskaerak.php:18
+Stack trace:
+#0 /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php(19): Eskaerak->sartuEskaera(NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/eskaerak.php on line 18
+[22-Apr-2021 20:54:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getKodea() on null in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/eskaerak.php:18
+Stack trace:
+#0 /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php(19): Eskaerak->sartuEskaera(NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/eskaerak.php on line 18
+[22-Apr-2021 20:54:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getKodea() on null in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/eskaerak.php:18
+Stack trace:
+#0 /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php(19): Eskaerak->sartuEskaera(NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/eskaerak.php on line 18
+[22-Apr-2021 20:54:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getKodea() on null in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/eskaerak.php:18
+Stack trace:
+#0 /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php(19): Eskaerak->sartuEskaera(NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/eskaerak.php on line 18
+[22-Apr-2021 20:54:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getKodea() on null in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/eskaerak.php:18
+Stack trace:
+#0 /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php(19): Eskaerak->sartuEskaera(NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/eskaerak.php on line 18
+[22-Apr-2021 20:56:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getKodea() on null in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/eskaerak.php:18
+Stack trace:
+#0 /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php(19): Eskaerak->sartuEskaera(NULL, NULL, NULL)
+#1 {main}
+  thrown in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/eskaerak.php on line 18
+[05-May-2021 09:52:43 UTC] PHP Fatal error:  require(): Failed opening required './controller/Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/eskaerak.php on line 24
+[05-May-2021 09:53:22 UTC] PHP Fatal error:  require(): Failed opening required './controller/Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/eskaerak.php on line 24
+[05-May-2021 11:29:32 UTC] PHP Parse error:  syntax error, unexpected '$itemName' (T_VARIABLE) in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 31
+[05-May-2021 11:31:02 UTC] PHP Parse error:  syntax error, unexpected '$itemName' (T_VARIABLE) in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 31
+[05-May-2021 11:35:54 UTC] PHP Fatal error:  require(): Failed opening required '..\controller\Controller.php' (include_path='.:/usr/local/php73/pear') in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/Login_Crud.php on line 2
+[05-May-2021 11:37:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Erabiltzaileak::Login_Crud() in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/Login_Crud.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/Login_Crud.php on line 12
+[24-May-2021 20:42:56 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 87
+[24-May-2021 20:45:12 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 87
+[24-May-2021 20:47:09 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 87
+[24-May-2021 20:47:33 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 87
+[24-May-2021 20:48:20 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 87
+[24-May-2021 20:49:22 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 87
+[31-May-2021 21:30:38 UTC] PHP Parse error:  syntax error, unexpected '$NewErabiltzaile' (T_VARIABLE) in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/register_form.php on line 72
+[01-Jun-2021 08:20:39 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 28
+[01-Jun-2021 08:23:50 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 28
+[01-Jun-2021 08:25:10 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 28
+[01-Jun-2021 08:27:27 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 28
+[01-Jun-2021 08:38:00 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 28
+[01-Jun-2021 08:43:06 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/PHP/IPNPaypal.php on line 28

@@ -1,11 +1,11 @@
-<?php require_once "./PHP/Idioma.php"?>
+<?php require_once "./PHP/Idioma.php";require_once "./controller/Controller.php";?>
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Fashi Template">
-    <meta name="keywords" content="Fashi, unica, creative, html">
+    <meta name="description" content="">
+    <meta name="keywords" content="unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php echo $lang['titulo'] ?></title>
@@ -27,9 +27,6 @@
 
 <body>
     <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
 
     <!-- Header Section Begin -->
 
@@ -43,6 +40,7 @@
                     <div class="breadcrumb-text">
                         <a href="#"><i class="fa fa-home"></i> <?php echo $lang['Inicio'] ?></a>
                         <span><?php echo $lang['Marcas'] ?></span>
+
                     </div>
                 </div>
             </div>
@@ -59,14 +57,14 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="product-item">
                                 <div class="pi-pic">
-                                    <a href=""><img src="img/Imagenes de Marca/Missha.svg" alt="" width="360"
-                                            height="218"></a>
+                                    <a href="MISSHA.php"><img src="img/imagenesSVG/logotipos/Missha.svg" alt=""
+                                            width="360" height="218"></a>
                                 </div>
                                 <div class="pi-text">
                                     <div class="catagory-name"></div>
                                     <div class="product-price">
                                         <?php echo $lang['Product Quantity'] ?>
-                                        <p><strong>6</strong></p>
+                                        <p><strong><?php echo $products->brand("MISSHA"); ?></strong></p>
                                     </div>
                                 </div>
                             </div>
@@ -74,14 +72,14 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="product-item">
                                 <div class="pi-pic">
-                                    <a href=""><img src="img/Imagenes de Marca/son-and-park-logo.svg" alt="" width="360"
-                                            height="218"></a>
+                                    <a href="SON&PARK.php"><img src="img/imagenesSVG/logotipos/sonpark.svg" alt=""
+                                            width="360" height="218"></a>
                                 </div>
                                 <div class="pi-text">
                                     <div class="catagory-name"></div>
                                     <div class="product-price">
                                         <?php echo $lang['Product Quantity'] ?>
-                                        <p><strong>6</strong></p>
+                                        <p><strong><?php echo $products->brand("SON&PARK"); ?></strong></p>
                                     </div>
                                 </div>
                             </div>
@@ -89,14 +87,14 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="product-item">
                                 <div class="pi-pic">
-                                    <a href=""><img src="img/Imagenes de Marca/COSRX.svg" alt="" width="360"
-                                            height="218"></a>
+                                    <a href="COSRX.php"><img src="img/imagenesSVG/logotipos/COSRX-Brand-Logo.svg" alt=""
+                                            width="360" height="218"></a>
                                 </div>
                                 <div class="pi-text">
                                     <div class="catagory-name"></div>
                                     <div class="product-price">
                                         <?php echo $lang['Product Quantity'] ?>
-                                        <p><strong>6</strong></p>
+                                        <p><strong><?php echo $products->brand("COSRX"); ?></strong></p>
                                     </div>
                                 </div>
                             </div>
@@ -104,14 +102,14 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="product-item">
                                 <div class="pi-pic">
-                                    <a href=""><img src="img/Imagenes de Marca/Banila_Pink.svg" alt="" width="360"
-                                            height="218"></a>
+                                    <a href="BANILLAPO.php"><img src="img/imagenesSVG/logotipos/Banilaco.svg" alt=""
+                                            width="360" height="218"></a>
                                 </div>
                                 <div class="pi-text">
                                     <div class="catagory-name"></div>
                                     <div class="product-price">
                                         <?php echo $lang['Product Quantity'] ?>
-                                        <p><strong>6</strong></p>
+                                        <p><strong><?php echo $products->brand("BANILA CO"); ?></strong></p>
                                     </div>
                                 </div>
                             </div>
@@ -119,14 +117,14 @@
                         <div class="col-lg-4 col-sm-6">
                             <div class="product-item">
                                 <div class="pi-pic">
-                                    <a href=""><img src="img/Imagenes de Marca/apieu.svg" alt="" width="360"
-                                            height="218"></a>
+                                    <a href="APIEU.php"><img src="img/imagenesSVG/logotipos/A_PIEU.svg" alt=""
+                                            width="360" height="218"></a>
                                 </div>
                                 <div class="pi-text">
                                     <div class="catagory-name"></div>
                                     <div class="product-price">
                                         <?php echo $lang['Product Quantity'] ?>
-                                        <p><strong>6</strong></p>
+                                        <p><strong><?php echo $products->brand("APIEU"); ?></strong></p>
                                     </div>
                                 </div>
                             </div>

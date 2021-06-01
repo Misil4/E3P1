@@ -1,0 +1,25 @@
+[31-May-2021 11:55:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Erabiltzaileak::SelectWithFilter() in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/Erabiltzaileak.php:116
+Stack trace:
+#0 /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/Crud/Crud.php(170): Erabiltzaileak->Todos_Datos_Filtro(Array)
+#1 {main}
+  thrown in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/Erabiltzaileak.php on line 116
+[31-May-2021 11:56:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Erabiltzaileak::SelectWithFilter() in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/Erabiltzaileak.php:116
+Stack trace:
+#0 /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/Crud/Crud.php(170): Erabiltzaileak->Todos_Datos_Filtro(Array)
+#1 {main}
+  thrown in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/Erabiltzaileak.php on line 116
+[31-May-2021 11:56:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Erabiltzaileak::SelectWithFilter() in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/Erabiltzaileak.php:116
+Stack trace:
+#0 /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/Crud/Crud.php(170): Erabiltzaileak->Todos_Datos_Filtro(Array)
+#1 {main}
+  thrown in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/Erabiltzaileak.php on line 116
+[31-May-2021 11:56:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Erabiltzaileak::SelectWithFilter() in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/Erabiltzaileak.php:116
+Stack trace:
+#0 /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/Crud/Crud.php(170): Erabiltzaileak->Todos_Datos_Filtro(Array)
+#1 {main}
+  thrown in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/Erabiltzaileak.php on line 116
+[31-May-2021 11:56:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Erabiltzaileak::SelectWithFilter() in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/Erabiltzaileak.php:116
+Stack trace:
+#0 /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/Crud/Crud.php(170): Erabiltzaileak->Todos_Datos_Filtro(Array)
+#1 {main}
+  thrown in /home/customer/www/2021e3p1talde1.aegcloud.pro/public_html/MODEL/Erabiltzaileak.php on line 116

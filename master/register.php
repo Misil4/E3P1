@@ -1,11 +1,14 @@
-<?php require_once "./PHP/Idioma.php"?>
+<?php require_once "./PHP/Idioma.php";
+require_once "./controller/Controller.php";
+$_POST['username'] = "";
+$_POST['pass'] = "";?>
 <!DOCTYPE html>
 <html lang="es">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Fashi Template">
-    <meta name="keywords" content="Fashi, unica, creative, html">
+    <meta name="description" content="">
+    <meta name="keywords" content="unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php echo $lang['titulo'] ?></title>
@@ -27,9 +30,7 @@
 
 <body>
     <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
+
 
     <!-- Header Section Begin -->
     <?php include './PHP/nav.php';?>
@@ -41,7 +42,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-text">
-                        <a href="#"><i class="fa fa-home"></i><?php echo $lang['Inicio'] ?> </a>
+                        <a href="index"><i class="fa fa-home"></i><?php echo $lang['Inicio'] ?> </a>
                         <span><?php echo $lang['Register'] ?></span>
                     </div>
                 </div>
@@ -57,23 +58,29 @@
                 <div class="col-lg-6 offset-lg-3">
                     <div class="register-form">
                         <h2><?php echo $lang['Register'] ?></h2>
-                        <form action="#">
+                        <form name="form" action="./PHP/register_form" method="post">
                             <div class="group-input">
                                 <label for="username"><?php echo $lang['Email'] ?> *</label>
-                                <input type="text" id="username">
+                                <input type="text" name="username" id="username">
                             </div>
                             <div class="group-input">
                                 <label for="pass"><?php echo $lang['Password'] ?> *</label>
-                                <input type="text" id="pass">
+                                <input type="text" name="pass" id="pass">
                             </div>
                             <div class="group-input">
                                 <label for="con-pass"><?php echo $lang['Password Confirm'] ?> *</label>
-                                <input type="text" id="con-pass">
+                                <input type="text" name="con-pass" id="con-pass">
+                            </div>
+                            <div class="group-input">
+                                <label
+                                    for="Privacy"><?php echo "<a href='condiciones-generales-de-contratacion'>".$lang['Hiring General Conditions']."</a>" ?>
+                                    *</label>
+                                <input type="checkbox" name="checkbox" id="checkbox" required>
                             </div>
                             <button type="submit" class="site-btn register-btn"><?php echo $lang['Register'] ?></button>
                         </form>
                         <div class="switch-login">
-                            <a href="./login.html" class="or-login"><?php echo $lang['Or Login'] ?></a>
+                            <a href="./login" class="or-login"><?php echo $lang['Or Login'] ?></a>
                         </div>
                     </div>
                 </div>

@@ -146,7 +146,7 @@
     /* var timerdate = "2020/01/01"; */
 
 	$("#countdown").countdown(timerdate, function(event) {
-        $(this).html(event.strftime("<div class='cd-item'><span>%D</span> <p>Days</p> </div>" + "<div class='cd-item'><span>%H</span> <p>Hrs</p> </div>" + "<div class='cd-item'><span>%M</span> <p>Mins</p> </div>" + "<div class='cd-item'><span>%S</span> <p>Secs</p> </div>"));
+        $(this).html(event.strftime("<div class='cd-item'><span>%H</span> <p>Hrs</p> </div>" + "<div class='cd-item'><span>%M</span> <p>Mins</p> </div>" + "<div class='cd-item'><span>%S</span> <p>Secs</p> </div>"));
     });
 
         
@@ -189,12 +189,12 @@
         max: maxPrice,
 		values: [minPrice, maxPrice],
 		slide: function (event, ui) {
-			minamount.val('$' + ui.values[0]);
-			maxamount.val('$' + ui.values[1]);
+			minamount.val(ui.values[0]+'€');
+			maxamount.val(ui.values[1]+'€');
 		}
 	});
-	minamount.val('$' + rangeSlider.slider("values", 0));
-    maxamount.val('$' + rangeSlider.slider("values", 1));
+	minamount.val(rangeSlider.slider("values", 0)+'€');
+    maxamount.val(rangeSlider.slider("values", 1)+'€');
 
     /*-------------------
 		Radio Btn
@@ -248,3 +248,24 @@
 	});
 
 })(jQuery);
+
+// Class active
+var btnContainer = document.getElementById("");
+
+// Get all buttons with class="btn" inside the container
+var btns = btnContainer.getElementsByClassName("botoia");
+
+// Loop through the buttons and add the active class to the current/clicked button
+for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+  
+      // If there's no active class
+      if (current.length > 0) {
+        current[0].className = current[0].className.replace(" active", "");
+      }
+  
+      // Add the active class to the current/clicked button
+      this.className += " active";
+    });
+  }

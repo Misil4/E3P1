@@ -27,9 +27,11 @@
                     <div class="footer-widget">
                         <h5><?php echo $lang['Information'] ?></h5>
                         <ul>
-                            <li><a href="#"><?php echo $lang['Miembros'] ?></a></li>
-                            <li><a href="blog.php"><?php echo $lang['Blog'] ?></a></li>
-                            <li><a href="contact.php"><?php echo $lang['Contacto'] ?></a></li>
+                            <li><a href="Miembros"><?php echo $lang['Miembros'] ?></a></li>
+                            <li><a href="blog"><?php echo $lang['Blog'] ?></a></li>
+                            <li><a href="contact"><?php echo $lang['Contacto'] ?></a></li>
+                            <li><a href="aviso-legal"><?php echo $lang['Legal Advise'] ?></a></li>
+                            <li><a href="politica-de-privacidad"><?php echo $lang['Privacy Policy'] ?></a></li>
                         </ul>
                     </div>
                 </div>
@@ -38,19 +40,9 @@
                         <h5><?php echo $lang['Mi cuenta'] ?></h5>
                         <ul>
                             <li><a href=""><?php echo $lang['Mi cuenta'] ?></a></li>
-                            <li><a href="shopping-cart.php"><?php echo $lang['Shopping Cart'] ?> </a></li>
-                            <li><a href="shop.php"><?php echo $lang['Shop'] ?></a></li>
+                            <li><a href="shopping-cart"><?php echo $lang['Shopping Cart'] ?> </a></li>
+                            <li><a href="productos"><?php echo $lang['Shop'] ?></a></li>
                         </ul>
-                    </div>
-                </div>
-                <div class="col-md-4 text-left">
-                    <div class="newslatter-item">
-                        <h5><?php echo $lang['Join Our Newsletter Now'] ?></h5>
-                        <p><?php echo $lang['Newsletter Now'] ?></p>
-                        <form action="#" class="subscribe-form">
-                            <input type="text" placeholder="<?php echo $lang['Enter Email'] ?>">
-                            <button type="button"><?php echo $lang['Subscribe'] ?></button>
-                        </form>
                     </div>
                 </div>
             </div>
@@ -60,13 +52,10 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright-text">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             Copyright &copy;<script>
                             document.write(new Date().getFullYear());
                             </script> <?php echo $lang['Copy'] ?> | <i class="fa fa-heart-o" aria-hidden="true"></i> by
-                            <a href="https://colorlib.com" target="_blank">Team
-                                NEW-EPSILON</a>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            <a href="https://colorlib.com" target="_blank">Colorlib</a>
                         </div>
                         <div class="payment-pic">
                             <img src="img/payment-method.png" alt="">
@@ -74,5 +63,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="cookie-banner">
+            <p>
+                By using our website, you agree to our
+                <a href="./politica-de-cookies">cookie policy</a>
+            </p>
         </div>
     </footer>
