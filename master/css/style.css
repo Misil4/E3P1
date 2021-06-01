@@ -4484,8 +4484,8 @@ input[type="radio"]:checked ~ label
   color: pink;
 }
 .page-item.active .page-link {
-	background-color:#f48fa8;
-	border-color: #f48fa8;
+	background-color:#000000;
+	border-color: #000000;
 }
 .page-link {
 	color: #f48fa8;
