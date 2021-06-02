@@ -130,6 +130,46 @@ class ModelBase extends Conexion
         $query = trim($query, 'AND ');
         return $query;
     }
+    protected function BorrarBD($table, $Condition_Column, $Condition)
+    {
+        $query = "DELETE FROM $table ";
+        $query .= "WHERE " . $Condition_Column . " = " . "'$Condition'";
+
+        return $query;
+    }
+
+    protected function UpdateBD($table, $Actualizar_Columna_Valor, $Columna_Condicion, $Columna_Condicion_Valor)
+    {
+        $query = "UPDATE $table ";
+        
+            $query .= "SET ";
+        
+            $query .= $Actualizar_Columna_Valor;
+            
+            $query .= " WHERE " . $Columna_Condicion . " = " . $Columna_Condicion_Valor;
+        
+            return $query;
+    }
+
+    protected function UpdateBD_Multiple($table, $Array_Actualizar/*En el nombre que se le introducce al valor hay que poder el nombre del campo en la base de datos*/,$Columna_Condicion,$Columna_Condicion_Valor)
+    {
+        
+        $query = "UPDATE $table ";
+        
+        $query .= "SET ";
+        
+        foreach($Array_Actualizar as $Campo => $Valor){$query .= $Campo . " = " . $Valor . ",";}
+            
+        $query = trim($query, ',');
+        $query .= " WHERE " . $Columna_Condicion . " = " . "'$Columna_Condicion_Valor'";
+        
+        return $query;
+    }
+    
+}
+
+?>
+
 
 }
 
