@@ -78,6 +78,11 @@ $_POST['pass'] = "";?>
                                 <input type="checkbox" name="checkbox" id="checkbox" required>
                             </div>
                             <button type="submit" class="site-btn register-btn"><?php echo $lang['Register'] ?></button>
+                            <?php $NewErabiltzaile['emaila'] = $_POST['username'];
+$NewErabiltzaile['pasahitza'] = $_POST['pass'];
+$NewErabiltzaile['pasahitza'] = password_hash($NewErabiltzaile['pasahitza'], PASSWORD_BCRYPT);
+$result = $erabiltzaileak->addNew($NewErabiltzaile);
+?>
                         </form>
                         <div class="switch-login">
                             <a href="./login" class="or-login"><?php echo $lang['Or Login'] ?></a>

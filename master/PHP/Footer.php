@@ -64,10 +64,17 @@
                 </div>
             </div>
         </div>
+<<<<<<< HEAD
         <div class="cookie-banner">
             <p>
                 By using our website, you agree to our
                 <a href="./politica-de-cookies">cookie policy</a>
+=======
+        <div class="cookie-banner" style="">
+            <p>
+                By using our website, you agree to our
+                <a href="insert-link">cookie policy</a>
+>>>>>>> 4155053607e485210fbcd9be4b9c998a3ab1e145
             </p>
         </div>
     </footer>

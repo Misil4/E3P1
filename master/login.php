@@ -75,6 +75,11 @@ $_POST['pass'] = "";?>
                                 </div>
                             </div>
                             <button type="submit" class="site-btn login-btn"><?php echo $lang['login'] ?></button>
+                            <?php $NewErabiltzaile['emaila'] = $_POST['username'];
+$NewErabiltzaile['pasahitza'] = $_POST['pass'];
+$result = $erabiltzaileak->Login("emaila", $NewErabiltzaile['emaila']);
+
+?>
                         </form>
 
                         <form name="cerrar" action="./PHP/Cerrar_Sesion" method="post">

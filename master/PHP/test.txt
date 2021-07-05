@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 payment_type => instant 
 Message sent successfullypayment_date => 11:44:26 May 31, 2021 PDT 
 Message sent successfullypayment_status => Completed 
@@ -35,4 +36,6 @@ Message sent successfullyinvoice => abc1234
 Message sent successfullytest_ipn => 1 
 Message sent successfullyverify_sign => AhosS5wNt8sj6oneRQ470Zvwve6AA0JypTQ53ezKev5M-so5mYY7j9QP 
 Message sent successfullylyipn_track_id => d310abc6c52c6 
+=======
+>>>>>>> 4155053607e485210fbcd9be4b9c998a3ab1e145
 Message sent successfully

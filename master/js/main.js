@@ -222,7 +222,13 @@
 			$('.zoomImg').attr({src: imgurl});
 		}
 	});
-
+    if (localStorage.getItem("cookieSeen") != "shown") {
+        $(".cookie-banner").delay(2000).fadeIn();
+        localStorage.setItem("cookieSeen","shown")
+      };
+      $(".close").click(function() {
+        $(".cookie-banner").fadeOut();
+      })
     $('.product-pic-zoom').zoom();
     
     /*-------------------
@@ -246,6 +252,7 @@
 		}
 		$button.parent().find('input').val(newVal);
 	});
+    
 
 })(jQuery);
 
